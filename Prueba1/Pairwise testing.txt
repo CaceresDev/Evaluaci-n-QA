@@ -1,0 +1,1521 @@
+
+TEST CASES
+case	Type	Passengers	Departing From	On	Arriving In	Returning	Service Class	Airline	pairings
+1	Round Trip	1	Acapulco	January	Acapulco	January	Economy class	No preferent 	28
+2	One Way	2	Frankfurt	January	Frankfurt	February 	Business class	Blu Skies Airlines	28
+3	Round Trip	3	London	February 	Frankfurt	January	Frist class	Unified Airlines	27
+4	One Way	4	New York	February 	Acapulco	February 	Economy class	Pangea Airlines	26
+5	Round Trip	4	Frankfurt	March 	London	January	Business class	No preferent 	24
+6	One Way	3	Acapulco	March 	New York	February 	Frist class	Blu Skies Airlines	24
+7	One Way	1	London	April 	London	March 	Economy class	Blu Skies Airlines	25
+8	Round Trip	2	New York	April 	New York	April 	Frist class	No preferent 	25
+9	Round Trip	2	Paris	May 	Paris	March 	Economy class	Unified Airlines	24
+10	One Way	1	Portland	May 	Portland	April 	Business class	Pangea Airlines	25
+11	One Way	3	Portland	June 	Paris	May 	Business class	No preferent 	23
+12	Round Trip	4	Paris	June 	Portland	June 	Frist class	Blu Skies Airlines	24
+13	One Way	1	Paris	July 	San Francisco	May 	Business class	Unified Airlines	22
+14	Round Trip	2	Portland	July 	Seattle	June 	Frist class	Pangea Airlines	22
+15	Round Trip	3	San Francisco	August 	Seattle	May 	Economy class	Blu Skies Airlines	21
+16	One Way	1	Seattle	August 	San Francisco	June 	Frist class	No preferent 	20
+17	Round Trip	4	San Francisco	September 	San Francisco	July 	Business class	Unified Airlines	20
+18	One Way	3	Seattle	September 	Seattle	August 	Economy class	Pangea Airlines	19
+19	Round Trip	2	Seattle	Octuber 	Sydney	July 	Business class	Blu Skies Airlines	20
+20	One Way	1	San Francisco	Octuber 	Zurich	August 	Frist class	No preferent 	21
+21	Round Trip	3	Sydney	November 	Zurich	July 	Economy class	Pangea Airlines	21
+22	One Way	4	Zurich	November 	Sydney	August 	Frist class	Unified Airlines	20
+23	One Way	2	Zurich	December 	Acapulco	July 	Frist class	No preferent 	17
+24	Round Trip	1	Sydney	December 	Frankfurt	August 	Business class	Blu Skies Airlines	17
+25	One Way	2	Sydney	January	London	September 	Frist class	Unified Airlines	19
+26	Round Trip	1	Zurich	February 	New York	September 	Business class	Pangea Airlines	19
+27	Round Trip	2	London	March 	Acapulco	Octuber 	Business class	Pangea Airlines	16
+28	One Way	1	New York	March 	Frankfurt	November 	Economy class	Unified Airlines	16
+29	One Way	4	Acapulco	April 	Paris	Octuber 	Frist class	Pangea Airlines	16
+30	Round Trip	3	Frankfurt	April 	Portland	November 	Business class	Unified Airlines	16
+31	One Way	4	Frankfurt	May 	New York	December 	Economy class	No preferent 	15
+32	One Way	3	New York	May 	San Francisco	January	Frist class	Blu Skies Airlines	15
+33	Round Trip	2	Acapulco	June 	San Francisco	December 	Economy class	Pangea Airlines	16
+34	Round Trip	3	Zurich	July 	Portland	February 	Economy class	No preferent 	15
+35	~Round Trip	4	Portland	August 	Sydney	March 	Business class	Pangea Airlines	14
+36	~One Way	1	Frankfurt	September 	Zurich	March 	Frist class	Blu Skies Airlines	13
+37	~One Way	4	London	Octuber 	Seattle	April 	Economy class	Unified Airlines	15
+38	~Round Trip	4	Seattle	November 	London	May 	Frist class	Pangea Airlines	11
+39	~One Way	2	San Francisco	November 	Paris	June 	Business class	Blu Skies Airlines	12
+40	~One Way	3	Paris	December 	Sydney	September 	Economy class	No preferent 	16
+41	~Round Trip	4	Portland	January	Zurich	Octuber 	Economy class	Unified Airlines	13
+42	~One Way	4	Sydney	February 	Seattle	November 	Business class	No preferent 	13
+43	~Round Trip	3	San Francisco	June 	Acapulco	November 	Frist class	Blu Skies Airlines	10
+44	~One Way	2	Seattle	June 	Zurich	January	Business class	Unified Airlines	11
+45	~One Way	4	Acapulco	July 	Frankfurt	December 	Business class	Blu Skies Airlines	11
+46	~Round Trip	1	New York	August 	Paris	December 	Frist class	Unified Airlines	11
+47	~Round Trip	3	Acapulco	September 	Acapulco	June 	Economy class	Unified Airlines	10
+48	~Round Trip	3	Paris	Octuber 	London	February 	~Business class	Pangea Airlines	10
+49	~Round Trip	2	San Francisco	December 	Portland	April 	~Economy class	Pangea Airlines	8
+50	~Round Trip	3	London	January	New York	March 	~Business class	No preferent 	9
+51	~One Way	1	Frankfurt	February 	Sydney	Octuber 	~Economy class	Blu Skies Airlines	10
+52	~Round Trip	2	Portland	September 	Frankfurt	September 	~Frist class	No preferent 	9
+53	~Round Trip	1	Frankfurt	November 	Seattle	February 	~Frist class	Unified Airlines	9
+54	~One Way	4	New York	December 	New York	Octuber 	Business class	Unified Airlines	9
+55	~One Way	3	Zurich	August 	Frankfurt	April 	~Economy class	Blu Skies Airlines	9
+56	~Round Trip	2	Seattle	January	Paris	November 	~Economy class	Pangea Airlines	9
+57	~One Way	1	Portland	February 	Portland	July 	~Frist class	Blu Skies Airlines	7
+58	~Round Trip	1	New York	June 	Seattle	September 	~Business class	Blu Skies Airlines	8
+59	~Round Trip	2	Paris	August 	London	Octuber 	~Frist class	No preferent 	7
+60	~One Way	~1	Portland	November 	New York	January	~Economy class	Pangea Airlines	7
+61	~One Way	4	Frankfurt	November 	Acapulco	September 	~Business class	Pangea Airlines	7
+62	~Round Trip	2	Acapulco	February 	London	August 	~Business class	~Unified Airlines	8
+63	~One Way	3	London	November 	Portland	December 	~Frist class	No preferent 	8
+64	~Round Trip	2	Sydney	May 	Frankfurt	May 	~Frist class	Pangea Airlines	7
+65	~Round Trip	~4	Sydney	January	San Francisco	April 	~Economy class	~Blu Skies Airlines	5
+66	~One Way	~3	New York	January	Sydney	May 	~Frist class	~Pangea Airlines	6
+67	~Round Trip	~2	Sydney	March 	Portland	March 	~Frist class	~Unified Airlines	6
+68	~One Way	~4	Zurich	March 	Zurich	June 	~Business class	~Pangea Airlines	6
+69	~One Way	~4	Paris	April 	Seattle	July 	~Economy class	~No preferent 	6
+70	~One Way	~3	Portland	April 	Acapulco	August 	~Business class	~Blu Skies Airlines	6
+71	~One Way	3	Zurich	May 	Seattle	Octuber 	~Business class	~Blu Skies Airlines	7
+72	~Round Trip	~4	Sydney	June 	New York	August 	~Economy class	~No preferent 	5
+73	~One Way	~1	San Francisco	July 	London	November 	~Economy class	~No preferent 	5
+74	~One Way	~1	Acapulco	July 	Sydney	April 	~Frist class	~No preferent 	5
+75	~One Way	~2	London	August 	Zurich	September 	~Economy class	~Blu Skies Airlines	6
+76	~Round Trip	~1	Sydney	September 	Sydney	December 	~Business class	~Pangea Airlines	6
+77	~Round Trip	~1	Zurich	Octuber 	Acapulco	May 	~Economy class	~Unified Airlines	5
+78	~One Way	~3	Frankfurt	Octuber 	Frankfurt	June 	~Frist class	~No preferent 	5
+79	~Round Trip	~1	London	December 	London	June 	~Frist class	~Pangea Airlines	5
+80	~One Way	~3	Frankfurt	March 	Paris	April 	~Economy class	~No preferent 	5
+81	~One Way	~2	Paris	August 	New York	November 	~Business class	~Pangea Airlines	5
+82	~Round Trip	~2	San Francisco	April 	Sydney	January	~Economy class	~Unified Airlines	6
+83	~One Way	~4	Acapulco	May 	Zurich	November 	~Frist class	~No preferent 	6
+84	~Round Trip	~4	London	May 	Sydney	February 	~Business class	~Unified Airlines	6
+85	~One Way	~4	San Francisco	June 	Frankfurt	March 	~Frist class	~Pangea Airlines	5
+86	~Round Trip	~4	Sydney	July 	Paris	January	~Frist class	~Blu Skies Airlines	6
+87	~Round Trip	~2	Zurich	September 	Paris	February 	~Frist class	~No preferent 	5
+88	~One Way	~3	New York	September 	London	April 	~Business class	~Blu Skies Airlines	5
+89	~One Way	~3	Seattle	February 	San Francisco	March 	~Frist class	~No preferent 	5
+90	~One Way	~2	Portland	March 	San Francisco	May 	~Economy class	~Blu Skies Airlines	4
+91	~One Way	~1	Seattle	April 	San Francisco	September 	~Business class	~Unified Airlines	5
+92	~Round Trip	~1	Frankfurt	June 	London	July 	~Economy class	~Unified Airlines	5
+93	~Round Trip	~3	Seattle	July 	New York	July 	~Business class	~Unified Airlines	5
+94	~Round Trip	~2	New York	Octuber 	Portland	Octuber 	~Frist class	~No preferent 	5
+95	~Round Trip	~3	Paris	Octuber 	Zurich	December 	~Business class	~Blu Skies Airlines	4
+96	~One Way	~4	Acapulco	Octuber 	Portland	January	~Economy class	~Pangea Airlines	4
+97	~Round Trip	~2	Paris	November 	San Francisco	April 	~Frist class	~Unified Airlines	4
+98	~One Way	~2	Seattle	December 	Seattle	December 	~Business class	~Blu Skies Airlines	5
+99	~Round Trip	~4	Frankfurt	December 	Zurich	May 	~Economy class	~Unified Airlines	5
+100	~One Way	~2	London	July 	Paris	August 	~Frist class	~Pangea Airlines	5
+101	~Round Trip	~1	Sydney	August 	San Francisco	February 	~Business class	~Unified Airlines	4
+102	~Round Trip	~1	San Francisco	January	New York	June 	~Economy class	~Unified Airlines	4
+103	~One Way	~2	Seattle	February 	Portland	May 	~Frist class	~No preferent 	3
+104	~One Way	~1	Paris	March 	Frankfurt	July 	~Economy class	~Pangea Airlines	4
+105	~Round Trip	~3	Sydney	April 	Acapulco	December 	~Economy class	~Unified Airlines	4
+106	~Round Trip	~4	Seattle	May 	Acapulco	September 	~Business class	~Blu Skies Airlines	4
+107	~Round Trip	~4	London	September 	San Francisco	November 	~Business class	~Blu Skies Airlines	5
+108	~One Way	~2	Portland	April 	Zurich	February 	~Business class	~Unified Airlines	4
+109	~One Way	~2	New York	April 	Frankfurt	June 	~Frist class	~Pangea Airlines	3
+110	~Round Trip	~1	Frankfurt	May 	San Francisco	August 	~Economy class	~Pangea Airlines	4
+111	~Round Trip	~3	Seattle	November 	Frankfurt	Octuber 	~Frist class	~No preferent 	5
+112	~Round Trip	~3	Acapulco	December 	Seattle	January	~Economy class	~Unified Airlines	4
+113	~Round Trip	~4	Acapulco	August 	Acapulco	July 	~Business class	~Unified Airlines	4
+114	~Round Trip	~1	New York	January	Paris	July 	~Economy class	~Unified Airlines	3
+115	~One Way	~2	Zurich	January	London	December 	~Business class	~Unified Airlines	5
+116	~One Way	~3	San Francisco	February 	Zurich	April 	~Economy class	~Unified Airlines	4
+117	~Round Trip	~3	San Francisco	March 	Paris	September 	~Economy class	~No preferent 	4
+118	~One Way	~1	San Francisco	September 	San Francisco	Octuber 	~Economy class	~Unified Airlines	3
+119	~Round Trip	~4	Paris	January	Portland	August 	~Business class	~Blu Skies Airlines	5
+120	~One Way	~1	New York	March 	Acapulco	March 	~Economy class	~Unified Airlines	2
+121	~Round Trip	~4	Seattle	March 	Acapulco	April 	~Economy class	~Blu Skies Airlines	3
+122	~Round Trip	~2	Frankfurt	July 	Acapulco	March 	~Economy class	~No preferent 	3
+123	~Round Trip	~4	Portland	December 	San Francisco	November 	~Economy class	~No preferent 	4
+124	~Round Trip	~4	Sydney	February 	Paris	June 	~Economy class	~Blu Skies Airlines	3
+125	~One Way	~1	London	June 	Zurich	February 	~Business class	~Unified Airlines	2
+126	~One Way	~1	Zurich	June 	Seattle	March 	~Business class	~Unified Airlines	3
+127	~One Way	~4	Zurich	August 	London	January	~Economy class	~Blu Skies Airlines	2
+128	~One Way	~2	Acapulco	September 	New York	May 	~Business class	~Blu Skies Airlines	4
+129	~Round Trip	~1	Zurich	Octuber 	San Francisco	September 	~Economy class	~Pangea Airlines	3
+130	~Round Trip	~3	Portland	Octuber 	Paris	November 	~Business class	~No preferent 	3
+131	~Round Trip	~3	Sydney	Octuber 	New York	September 	~Business class	~No preferent 	2
+132	~One Way	~3	San Francisco	May 	London	July 	~Business class	~No preferent 	3
+133	~Round Trip	~4	New York	July 	Zurich	September 	~Economy class	~Blu Skies Airlines	4
+134	~One Way	~2	Frankfurt	August 	Portland	November 	~Economy class	~Pangea Airlines	2
+135	~One Way	~1	Paris	September 	Portland	January	~Business class	~Unified Airlines	4
+136	~Round Trip	~1	New York	November 	Sydney	November 	~Economy class	~Blu Skies Airlines	3
+137	~Round Trip	~4	San Francisco	December 	Acapulco	February 	~Economy class	~Blu Skies Airlines	2
+138	~One Way	~4	Acapulco	December 	Paris	March 	~Economy class	~Blu Skies Airlines	3
+139	~One Way	~2	Acapulco	November 	London	September 	~Business class	~Pangea Airlines	2
+140	~Round Trip	~1	Paris	February 	Acapulco	December 	~Business class	~Pangea Airlines	3
+141	~One Way	~4	London	April 	London	May 	~Business class	~Blu Skies Airlines	2
+142	~Round Trip	~3	Sydney	June 	Sydney	Octuber 	~Economy class	~No preferent 	3
+143	~One Way	~3	Portland	March 	Seattle	December 	~Economy class	~No preferent 	3
+144	~One Way	~2	New York	March 	Sydney	August 	~Business class	~Pangea Airlines	3
+145	~Round Trip	~3	~London	January	Seattle	June 	~Business class	~No preferent 	1
+146	~One Way	~1	Portland	April 	London	July 	~Business class	~Unified Airlines	1
+147	~One Way	~4	London	Octuber 	~Seattle	July 	~Economy class	~Blu Skies Airlines	1
+148	~Round Trip	~1	~Seattle	May 	Sydney	June 	~Business class	~Pangea Airlines	2
+149	~One Way	~3	~Acapulco	June 	~Frankfurt	April 	~Business class	~No preferent 	1
+150	~Round Trip	~1	~Sydney	July 	~Seattle	Octuber 	~Economy class	~Pangea Airlines	1
+151	~Round Trip	~4	~San Francisco	Octuber 	~Frankfurt	March 	~Business class	~Blu Skies Airlines	1
+152	~One Way	~3	~San Francisco	August 	~New York	August 	~Economy class	~Pangea Airlines	1
+153	~One Way	~4	Zurich	April 	Portland	September 	~Economy class	~Blu Skies Airlines	2
+154	~Round Trip	~2	Zurich	November 	~New York	November 	~Business class	~Pangea Airlines	1
+155	~One Way	~2	San Francisco	November 	~Zurich	December 	~Economy class	~Pangea Airlines	1
+156	~One Way	~2	~New York	November 	~Seattle	March 	~Economy class	~Pangea Airlines	1
+157	~Round Trip	~2	Seattle	~December 	~New York	February 	~Economy class	~Pangea Airlines	1
+
+PAIRING DETAILS
+var1	var2	value1	value2	appearances	cases
+On	Returning	January	January	1	1
+On	Returning	January	February 	1	2
+On	Returning	January	March 	1	50
+On	Returning	January	April 	1	65
+On	Returning	January	May 	1	66
+On	Returning	January	June 	2	102, 145
+On	Returning	January	July 	1	114
+On	Returning	January	August 	1	119
+On	Returning	January	September 	1	25
+On	Returning	January	Octuber 	1	41
+On	Returning	January	November 	1	56
+On	Returning	January	December 	1	115
+On	Returning	February 	January	1	3
+On	Returning	February 	February 	1	4
+On	Returning	February 	March 	1	89
+On	Returning	February 	April 	1	116
+On	Returning	February 	May 	1	103
+On	Returning	February 	June 	1	124
+On	Returning	February 	July 	1	57
+On	Returning	February 	August 	1	62
+On	Returning	February 	September 	1	26
+On	Returning	February 	Octuber 	1	51
+On	Returning	February 	November 	1	42
+On	Returning	February 	December 	1	140
+On	Returning	March 	January	1	5
+On	Returning	March 	February 	1	6
+On	Returning	March 	March 	2	67, 120
+On	Returning	March 	April 	2	80, 121
+On	Returning	March 	May 	1	90
+On	Returning	March 	June 	1	68
+On	Returning	March 	July 	1	104
+On	Returning	March 	August 	1	144
+On	Returning	March 	September 	1	117
+On	Returning	March 	Octuber 	1	27
+On	Returning	March 	November 	1	28
+On	Returning	March 	December 	1	143
+On	Returning	April 	January	1	82
+On	Returning	April 	February 	1	108
+On	Returning	April 	March 	1	7
+On	Returning	April 	April 	1	8
+On	Returning	April 	May 	1	141
+On	Returning	April 	June 	1	109
+On	Returning	April 	July 	2	69, 146
+On	Returning	April 	August 	1	70
+On	Returning	April 	September 	2	91, 153
+On	Returning	April 	Octuber 	1	29
+On	Returning	April 	November 	1	30
+On	Returning	April 	December 	1	105
+On	Returning	May 	January	1	32
+On	Returning	May 	February 	1	84
+On	Returning	May 	March 	1	9
+On	Returning	May 	April 	1	10
+On	Returning	May 	May 	1	64
+On	Returning	May 	June 	1	148
+On	Returning	May 	July 	1	132
+On	Returning	May 	August 	1	110
+On	Returning	May 	September 	1	106
+On	Returning	May 	Octuber 	1	71
+On	Returning	May 	November 	1	83
+On	Returning	May 	December 	1	31
+On	Returning	June 	January	1	44
+On	Returning	June 	February 	1	125
+On	Returning	June 	March 	2	85, 126
+On	Returning	June 	April 	1	149
+On	Returning	June 	May 	1	11
+On	Returning	June 	June 	1	12
+On	Returning	June 	July 	1	92
+On	Returning	June 	August 	1	72
+On	Returning	June 	September 	1	58
+On	Returning	June 	Octuber 	1	142
+On	Returning	June 	November 	1	43
+On	Returning	June 	December 	1	33
+On	Returning	July 	January	1	86
+On	Returning	July 	February 	1	34
+On	Returning	July 	March 	1	122
+On	Returning	July 	April 	1	74
+On	Returning	July 	May 	1	13
+On	Returning	July 	June 	1	14
+On	Returning	July 	July 	1	93
+On	Returning	July 	August 	1	100
+On	Returning	July 	September 	1	133
+On	Returning	July 	Octuber 	1	150
+On	Returning	July 	November 	1	73
+On	Returning	July 	December 	1	45
+On	Returning	August 	January	1	127
+On	Returning	August 	February 	1	101
+On	Returning	August 	March 	1	35
+On	Returning	August 	April 	1	55
+On	Returning	August 	May 	1	15
+On	Returning	August 	June 	1	16
+On	Returning	August 	July 	1	113
+On	Returning	August 	August 	1	152
+On	Returning	August 	September 	1	75
+On	Returning	August 	Octuber 	1	59
+On	Returning	August 	November 	2	81, 134
+On	Returning	August 	December 	1	46
+On	Returning	September 	January	1	135
+On	Returning	September 	February 	1	87
+On	Returning	September 	March 	1	36
+On	Returning	September 	April 	1	88
+On	Returning	September 	May 	1	128
+On	Returning	September 	June 	1	47
+On	Returning	September 	July 	1	17
+On	Returning	September 	August 	1	18
+On	Returning	September 	September 	1	52
+On	Returning	September 	Octuber 	1	118
+On	Returning	September 	November 	1	107
+On	Returning	September 	December 	1	76
+On	Returning	Octuber 	January	1	96
+On	Returning	Octuber 	February 	1	48
+On	Returning	Octuber 	March 	1	151
+On	Returning	Octuber 	April 	1	37
+On	Returning	Octuber 	May 	1	77
+On	Returning	Octuber 	June 	1	78
+On	Returning	Octuber 	July 	2	19, 147
+On	Returning	Octuber 	August 	1	20
+On	Returning	Octuber 	September 	2	129, 131
+On	Returning	Octuber 	Octuber 	1	94
+On	Returning	Octuber 	November 	1	130
+On	Returning	Octuber 	December 	1	95
+On	Returning	November 	January	1	60
+On	Returning	November 	February 	1	53
+On	Returning	November 	March 	1	156
+On	Returning	November 	April 	1	97
+On	Returning	November 	May 	1	38
+On	Returning	November 	June 	1	39
+On	Returning	November 	July 	1	21
+On	Returning	November 	August 	1	22
+On	Returning	November 	September 	2	61, 139
+On	Returning	November 	Octuber 	1	111
+On	Returning	November 	November 	2	136, 154
+On	Returning	November 	December 	2	63, 155
+On	Returning	December 	January	1	112
+On	Returning	December 	February 	2	137, 157
+On	Returning	December 	March 	1	138
+On	Returning	December 	April 	1	49
+On	Returning	December 	May 	1	99
+On	Returning	December 	June 	1	79
+On	Returning	December 	July 	1	23
+On	Returning	December 	August 	1	24
+On	Returning	December 	September 	1	40
+On	Returning	December 	Octuber 	1	54
+On	Returning	December 	November 	1	123
+On	Returning	December 	December 	1	98
+On	Arriving In	January	Acapulco	1	1
+On	Arriving In	January	Frankfurt	1	2
+On	Arriving In	January	London	2	25, 115
+On	Arriving In	January	New York	2	50, 102
+On	Arriving In	January	Paris	2	56, 114
+On	Arriving In	January	Portland	1	119
+On	Arriving In	January	San Francisco	1	65
+On	Arriving In	January	Seattle	1	145
+On	Arriving In	January	Sydney	1	66
+On	Arriving In	January	Zurich	1	41
+On	Arriving In	February 	Acapulco	2	4, 140
+On	Arriving In	February 	Frankfurt	1	3
+On	Arriving In	February 	London	1	62
+On	Arriving In	February 	New York	1	26
+On	Arriving In	February 	Paris	1	124
+On	Arriving In	February 	Portland	2	57, 103
+On	Arriving In	February 	San Francisco	1	89
+On	Arriving In	February 	Seattle	1	42
+On	Arriving In	February 	Sydney	1	51
+On	Arriving In	February 	Zurich	1	116
+On	Arriving In	March 	Acapulco	3	27, 120, 121
+On	Arriving In	March 	Frankfurt	2	28, 104
+On	Arriving In	March 	London	1	5
+On	Arriving In	March 	New York	1	6
+On	Arriving In	March 	Paris	2	80, 117
+On	Arriving In	March 	Portland	1	67
+On	Arriving In	March 	San Francisco	1	90
+On	Arriving In	March 	Seattle	1	143
+On	Arriving In	March 	Sydney	1	144
+On	Arriving In	March 	Zurich	1	68
+On	Arriving In	April 	Acapulco	2	70, 105
+On	Arriving In	April 	Frankfurt	1	109
+On	Arriving In	April 	London	3	7, 141, 146
+On	Arriving In	April 	New York	1	8
+On	Arriving In	April 	Paris	1	29
+On	Arriving In	April 	Portland	2	30, 153
+On	Arriving In	April 	San Francisco	1	91
+On	Arriving In	April 	Seattle	1	69
+On	Arriving In	April 	Sydney	1	82
+On	Arriving In	April 	Zurich	1	108
+On	Arriving In	May 	Acapulco	1	106
+On	Arriving In	May 	Frankfurt	1	64
+On	Arriving In	May 	London	1	132
+On	Arriving In	May 	New York	1	31
+On	Arriving In	May 	Paris	1	9
+On	Arriving In	May 	Portland	1	10
+On	Arriving In	May 	San Francisco	2	32, 110
+On	Arriving In	May 	Seattle	1	71
+On	Arriving In	May 	Sydney	2	84, 148
+On	Arriving In	May 	Zurich	1	83
+On	Arriving In	June 	Acapulco	1	43
+On	Arriving In	June 	Frankfurt	2	85, 149
+On	Arriving In	June 	London	1	92
+On	Arriving In	June 	New York	1	72
+On	Arriving In	June 	Paris	1	11
+On	Arriving In	June 	Portland	1	12
+On	Arriving In	June 	San Francisco	1	33
+On	Arriving In	June 	Seattle	2	58, 126
+On	Arriving In	June 	Sydney	1	142
+On	Arriving In	June 	Zurich	2	44, 125
+On	Arriving In	July 	Acapulco	1	122
+On	Arriving In	July 	Frankfurt	1	45
+On	Arriving In	July 	London	1	73
+On	Arriving In	July 	New York	1	93
+On	Arriving In	July 	Paris	2	86, 100
+On	Arriving In	July 	Portland	1	34
+On	Arriving In	July 	San Francisco	1	13
+On	Arriving In	July 	Seattle	2	14, 150
+On	Arriving In	July 	Sydney	1	74
+On	Arriving In	July 	Zurich	1	133
+On	Arriving In	August 	Acapulco	1	113
+On	Arriving In	August 	Frankfurt	1	55
+On	Arriving In	August 	London	2	59, 127
+On	Arriving In	August 	New York	2	81, 152
+On	Arriving In	August 	Paris	1	46
+On	Arriving In	August 	Portland	1	134
+On	Arriving In	August 	San Francisco	2	16, 101
+On	Arriving In	August 	Seattle	1	15
+On	Arriving In	August 	Sydney	1	35
+On	Arriving In	August 	Zurich	1	75
+On	Arriving In	September 	Acapulco	1	47
+On	Arriving In	September 	Frankfurt	1	52
+On	Arriving In	September 	London	1	88
+On	Arriving In	September 	New York	1	128
+On	Arriving In	September 	Paris	1	87
+On	Arriving In	September 	Portland	1	135
+On	Arriving In	September 	San Francisco	3	17, 107, 118
+On	Arriving In	September 	Seattle	1	18
+On	Arriving In	September 	Sydney	1	76
+On	Arriving In	September 	Zurich	1	36
+On	Arriving In	Octuber 	Acapulco	1	77
+On	Arriving In	Octuber 	Frankfurt	2	78, 151
+On	Arriving In	Octuber 	London	1	48
+On	Arriving In	Octuber 	New York	1	131
+On	Arriving In	Octuber 	Paris	1	130
+On	Arriving In	Octuber 	Portland	2	94, 96
+On	Arriving In	Octuber 	San Francisco	1	129
+On	Arriving In	Octuber 	Seattle	2	37, 147
+On	Arriving In	Octuber 	Sydney	1	19
+On	Arriving In	Octuber 	Zurich	2	20, 95
+On	Arriving In	November 	Acapulco	1	61
+On	Arriving In	November 	Frankfurt	1	111
+On	Arriving In	November 	London	2	38, 139
+On	Arriving In	November 	New York	2	60, 154
+On	Arriving In	November 	Paris	1	39
+On	Arriving In	November 	Portland	1	63
+On	Arriving In	November 	San Francisco	1	97
+On	Arriving In	November 	Seattle	2	53, 156
+On	Arriving In	November 	Sydney	2	22, 136
+On	Arriving In	November 	Zurich	2	21, 155
+On	Arriving In	December 	Acapulco	2	23, 137
+On	Arriving In	December 	Frankfurt	1	24
+On	Arriving In	December 	London	1	79
+On	Arriving In	December 	New York	2	54, 157
+On	Arriving In	December 	Paris	1	138
+On	Arriving In	December 	Portland	1	49
+On	Arriving In	December 	San Francisco	1	123
+On	Arriving In	December 	Seattle	2	98, 112
+On	Arriving In	December 	Sydney	1	40
+On	Arriving In	December 	Zurich	1	99
+On	Departing From	January	Acapulco	1	1
+On	Departing From	January	Frankfurt	1	2
+On	Departing From	January	London	2	50, 145
+On	Departing From	January	New York	2	66, 114
+On	Departing From	January	Paris	1	119
+On	Departing From	January	Portland	1	41
+On	Departing From	January	San Francisco	1	102
+On	Departing From	January	Seattle	1	56
+On	Departing From	January	Sydney	2	25, 65
+On	Departing From	January	Zurich	1	115
+On	Departing From	February 	Acapulco	1	62
+On	Departing From	February 	Frankfurt	1	51
+On	Departing From	February 	London	1	3
+On	Departing From	February 	New York	1	4
+On	Departing From	February 	Paris	1	140
+On	Departing From	February 	Portland	1	57
+On	Departing From	February 	San Francisco	1	116
+On	Departing From	February 	Seattle	2	89, 103
+On	Departing From	February 	Sydney	2	42, 124
+On	Departing From	February 	Zurich	1	26
+On	Departing From	March 	Acapulco	1	6
+On	Departing From	March 	Frankfurt	2	5, 80
+On	Departing From	March 	London	1	27
+On	Departing From	March 	New York	3	28, 120, 144
+On	Departing From	March 	Paris	1	104
+On	Departing From	March 	Portland	2	90, 143
+On	Departing From	March 	San Francisco	1	117
+On	Departing From	March 	Seattle	1	121
+On	Departing From	March 	Sydney	1	67
+On	Departing From	March 	Zurich	1	68
+On	Departing From	April 	Acapulco	1	29
+On	Departing From	April 	Frankfurt	1	30
+On	Departing From	April 	London	2	7, 141
+On	Departing From	April 	New York	2	8, 109
+On	Departing From	April 	Paris	1	69
+On	Departing From	April 	Portland	3	70, 108, 146
+On	Departing From	April 	San Francisco	1	82
+On	Departing From	April 	Seattle	1	91
+On	Departing From	April 	Sydney	1	105
+On	Departing From	April 	Zurich	1	153
+On	Departing From	May 	Acapulco	1	83
+On	Departing From	May 	Frankfurt	2	31, 110
+On	Departing From	May 	London	1	84
+On	Departing From	May 	New York	1	32
+On	Departing From	May 	Paris	1	9
+On	Departing From	May 	Portland	1	10
+On	Departing From	May 	San Francisco	1	132
+On	Departing From	May 	Seattle	2	106, 148
+On	Departing From	May 	Sydney	1	64
+On	Departing From	May 	Zurich	1	71
+On	Departing From	June 	Acapulco	2	33, 149
+On	Departing From	June 	Frankfurt	1	92
+On	Departing From	June 	London	1	125
+On	Departing From	June 	New York	1	58
+On	Departing From	June 	Paris	1	12
+On	Departing From	June 	Portland	1	11
+On	Departing From	June 	San Francisco	2	43, 85
+On	Departing From	June 	Seattle	1	44
+On	Departing From	June 	Sydney	2	72, 142
+On	Departing From	June 	Zurich	1	126
+On	Departing From	July 	Acapulco	2	45, 74
+On	Departing From	July 	Frankfurt	1	122
+On	Departing From	July 	London	1	100
+On	Departing From	July 	New York	1	133
+On	Departing From	July 	Paris	1	13
+On	Departing From	July 	Portland	1	14
+On	Departing From	July 	San Francisco	1	73
+On	Departing From	July 	Seattle	1	93
+On	Departing From	July 	Sydney	2	86, 150
+On	Departing From	July 	Zurich	1	34
+On	Departing From	August 	Acapulco	1	113
+On	Departing From	August 	Frankfurt	1	134
+On	Departing From	August 	London	1	75
+On	Departing From	August 	New York	1	46
+On	Departing From	August 	Paris	2	59, 81
+On	Departing From	August 	Portland	1	35
+On	Departing From	August 	San Francisco	2	15, 152
+On	Departing From	August 	Seattle	1	16
+On	Departing From	August 	Sydney	1	101
+On	Departing From	August 	Zurich	2	55, 127
+On	Departing From	September 	Acapulco	2	47, 128
+On	Departing From	September 	Frankfurt	1	36
+On	Departing From	September 	London	1	107
+On	Departing From	September 	New York	1	88
+On	Departing From	September 	Paris	1	135
+On	Departing From	September 	Portland	1	52
+On	Departing From	September 	San Francisco	2	17, 118
+On	Departing From	September 	Seattle	1	18
+On	Departing From	September 	Sydney	1	76
+On	Departing From	September 	Zurich	1	87
+On	Departing From	Octuber 	Acapulco	1	96
+On	Departing From	Octuber 	Frankfurt	1	78
+On	Departing From	Octuber 	London	2	37, 147
+On	Departing From	Octuber 	New York	1	94
+On	Departing From	Octuber 	Paris	2	48, 95
+On	Departing From	Octuber 	Portland	1	130
+On	Departing From	Octuber 	San Francisco	2	20, 151
+On	Departing From	Octuber 	Seattle	1	19
+On	Departing From	Octuber 	Sydney	1	131
+On	Departing From	Octuber 	Zurich	2	77, 129
+On	Departing From	November 	Acapulco	1	139
+On	Departing From	November 	Frankfurt	2	53, 61
+On	Departing From	November 	London	1	63
+On	Departing From	November 	New York	2	136, 156
+On	Departing From	November 	Paris	1	97
+On	Departing From	November 	Portland	1	60
+On	Departing From	November 	San Francisco	2	39, 155
+On	Departing From	November 	Seattle	2	38, 111
+On	Departing From	November 	Sydney	1	21
+On	Departing From	November 	Zurich	2	22, 154
+On	Departing From	December 	Acapulco	2	112, 138
+On	Departing From	December 	Frankfurt	1	99
+On	Departing From	December 	London	1	79
+On	Departing From	December 	New York	1	54
+On	Departing From	December 	Paris	1	40
+On	Departing From	December 	Portland	1	123
+On	Departing From	December 	San Francisco	2	49, 137
+On	Departing From	December 	Seattle	2	98, 157
+On	Departing From	December 	Sydney	1	24
+On	Departing From	December 	Zurich	1	23
+On	Passengers	January	1	3	1, 102, 114
+On	Passengers	January	2	4	2, 25, 56, 115
+On	Passengers	January	3	3	50, 66, 145
+On	Passengers	January	4	3	41, 65, 119
+On	Passengers	February 	1	4	26, 51, 57, 140
+On	Passengers	February 	2	2	62, 103
+On	Passengers	February 	3	3	3, 89, 116
+On	Passengers	February 	4	3	4, 42, 124
+On	Passengers	March 	1	3	28, 104, 120
+On	Passengers	March 	2	4	27, 67, 90, 144
+On	Passengers	March 	3	4	6, 80, 117, 143
+On	Passengers	March 	4	3	5, 68, 121
+On	Passengers	April 	1	3	7, 91, 146
+On	Passengers	April 	2	4	8, 82, 108, 109
+On	Passengers	April 	3	3	30, 70, 105
+On	Passengers	April 	4	4	29, 69, 141, 153
+On	Passengers	May 	1	3	10, 110, 148
+On	Passengers	May 	2	2	9, 64
+On	Passengers	May 	3	3	32, 71, 132
+On	Passengers	May 	4	4	31, 83, 84, 106
+On	Passengers	June 	1	4	58, 92, 125, 126
+On	Passengers	June 	2	2	33, 44
+On	Passengers	June 	3	4	11, 43, 142, 149
+On	Passengers	June 	4	3	12, 72, 85
+On	Passengers	July 	1	4	13, 73, 74, 150
+On	Passengers	July 	2	3	14, 100, 122
+On	Passengers	July 	3	2	34, 93
+On	Passengers	July 	4	3	45, 86, 133
+On	Passengers	August 	1	3	16, 46, 101
+On	Passengers	August 	2	4	59, 75, 81, 134
+On	Passengers	August 	3	3	15, 55, 152
+On	Passengers	August 	4	3	35, 113, 127
+On	Passengers	September 	1	4	36, 76, 118, 135
+On	Passengers	September 	2	3	52, 87, 128
+On	Passengers	September 	3	3	18, 47, 88
+On	Passengers	September 	4	2	17, 107
+On	Passengers	Octuber 	1	3	20, 77, 129
+On	Passengers	Octuber 	2	2	19, 94
+On	Passengers	Octuber 	3	5	48, 78, 95, 130, 131
+On	Passengers	Octuber 	4	4	37, 96, 147, 151
+On	Passengers	November 	1	3	53, 60, 136
+On	Passengers	November 	2	6	39, 97, 139, 154, 155, 156
+On	Passengers	November 	3	3	21, 63, 111
+On	Passengers	November 	4	3	22, 38, 61
+On	Passengers	December 	1	2	24, 79
+On	Passengers	December 	2	4	23, 49, 98, 157
+On	Passengers	December 	3	2	40, 112
+On	Passengers	December 	4	5	54, 99, 123, 137, 138
+On	Airline	January	No preferent 	3	1, 50, 145
+On	Airline	January	Blu Skies Airlines	3	2, 65, 119
+On	Airline	January	Unified Airlines	5	25, 41, 102, 114, 115
+On	Airline	January	Pangea Airlines	2	56, 66
+On	Airline	February 	No preferent 	3	42, 89, 103
+On	Airline	February 	Blu Skies Airlines	3	51, 57, 124
+On	Airline	February 	Unified Airlines	3	3, 62, 116
+On	Airline	February 	Pangea Airlines	3	4, 26, 140
+On	Airline	March 	No preferent 	4	5, 80, 117, 143
+On	Airline	March 	Blu Skies Airlines	3	6, 90, 121
+On	Airline	March 	Unified Airlines	3	28, 67, 120
+On	Airline	March 	Pangea Airlines	4	27, 68, 104, 144
+On	Airline	April 	No preferent 	2	8, 69
+On	Airline	April 	Blu Skies Airlines	4	7, 70, 141, 153
+On	Airline	April 	Unified Airlines	6	30, 82, 91, 105, 108, 146
+On	Airline	April 	Pangea Airlines	2	29, 109
+On	Airline	May 	No preferent 	3	31, 83, 132
+On	Airline	May 	Blu Skies Airlines	3	32, 71, 106
+On	Airline	May 	Unified Airlines	2	9, 84
+On	Airline	May 	Pangea Airlines	4	10, 64, 110, 148
+On	Airline	June 	No preferent 	4	11, 72, 142, 149
+On	Airline	June 	Blu Skies Airlines	3	12, 43, 58
+On	Airline	June 	Unified Airlines	4	44, 92, 125, 126
+On	Airline	June 	Pangea Airlines	2	33, 85
+On	Airline	July 	No preferent 	4	34, 73, 74, 122
+On	Airline	July 	Blu Skies Airlines	3	45, 86, 133
+On	Airline	July 	Unified Airlines	2	13, 93
+On	Airline	July 	Pangea Airlines	3	14, 100, 150
+On	Airline	August 	No preferent 	2	16, 59
+On	Airline	August 	Blu Skies Airlines	4	15, 55, 75, 127
+On	Airline	August 	Unified Airlines	3	46, 101, 113
+On	Airline	August 	Pangea Airlines	4	35, 81, 134, 152
+On	Airline	September 	No preferent 	2	52, 87
+On	Airline	September 	Blu Skies Airlines	4	36, 88, 107, 128
+On	Airline	September 	Unified Airlines	4	17, 47, 118, 135
+On	Airline	September 	Pangea Airlines	2	18, 76
+On	Airline	Octuber 	No preferent 	5	20, 78, 94, 130, 131
+On	Airline	Octuber 	Blu Skies Airlines	4	19, 95, 147, 151
+On	Airline	Octuber 	Unified Airlines	2	37, 77
+On	Airline	Octuber 	Pangea Airlines	3	48, 96, 129
+On	Airline	November 	No preferent 	2	63, 111
+On	Airline	November 	Blu Skies Airlines	2	39, 136
+On	Airline	November 	Unified Airlines	3	22, 53, 97
+On	Airline	November 	Pangea Airlines	8	21, 38, 60, 61, 139, 154, 155, 156
+On	Airline	December 	No preferent 	3	23, 40, 123
+On	Airline	December 	Blu Skies Airlines	4	24, 98, 137, 138
+On	Airline	December 	Unified Airlines	3	54, 99, 112
+On	Airline	December 	Pangea Airlines	3	49, 79, 157
+On	Service Class	January	Economy class	6	1, 41, 56, 65, 102, 114
+On	Service Class	January	Business class	5	2, 50, 115, 119, 145
+On	Service Class	January	Frist class	2	25, 66
+On	Service Class	February 	Economy class	4	4, 51, 116, 124
+On	Service Class	February 	Business class	4	26, 42, 62, 140
+On	Service Class	February 	Frist class	4	3, 57, 89, 103
+On	Service Class	March 	Economy class	8	28, 80, 90, 104, 117, 120, 121, 143
+On	Service Class	March 	Business class	4	5, 27, 68, 144
+On	Service Class	March 	Frist class	2	6, 67
+On	Service Class	April 	Economy class	5	7, 69, 82, 105, 153
+On	Service Class	April 	Business class	6	30, 70, 91, 108, 141, 146
+On	Service Class	April 	Frist class	3	8, 29, 109
+On	Service Class	May 	Economy class	3	9, 31, 110
+On	Service Class	May 	Business class	6	10, 71, 84, 106, 132, 148
+On	Service Class	May 	Frist class	3	32, 64, 83
+On	Service Class	June 	Economy class	4	33, 72, 92, 142
+On	Service Class	June 	Business class	6	11, 44, 58, 125, 126, 149
+On	Service Class	June 	Frist class	3	12, 43, 85
+On	Service Class	July 	Economy class	5	34, 73, 122, 133, 150
+On	Service Class	July 	Business class	3	13, 45, 93
+On	Service Class	July 	Frist class	4	14, 74, 86, 100
+On	Service Class	August 	Economy class	6	15, 55, 75, 127, 134, 152
+On	Service Class	August 	Business class	4	35, 81, 101, 113
+On	Service Class	August 	Frist class	3	16, 46, 59
+On	Service Class	September 	Economy class	3	18, 47, 118
+On	Service Class	September 	Business class	6	17, 76, 88, 107, 128, 135
+On	Service Class	September 	Frist class	3	36, 52, 87
+On	Service Class	Octuber 	Economy class	5	37, 77, 96, 129, 147
+On	Service Class	Octuber 	Business class	6	19, 48, 95, 130, 131, 151
+On	Service Class	Octuber 	Frist class	3	20, 78, 94
+On	Service Class	November 	Economy class	5	21, 60, 136, 155, 156
+On	Service Class	November 	Business class	4	39, 61, 139, 154
+On	Service Class	November 	Frist class	6	22, 38, 53, 63, 97, 111
+On	Service Class	December 	Economy class	8	40, 49, 99, 112, 123, 137, 138, 157
+On	Service Class	December 	Business class	3	24, 54, 98
+On	Service Class	December 	Frist class	2	23, 79
+On	Type	January	Round Trip	9	1, 41, 50, 56, 65, 102, 114, 119, 145
+On	Type	January	One Way	4	2, 25, 66, 115
+On	Type	February 	Round Trip	5	3, 26, 62, 124, 140
+On	Type	February 	One Way	7	4, 42, 51, 57, 89, 103, 116
+On	Type	March 	Round Trip	5	5, 27, 67, 117, 121
+On	Type	March 	One Way	9	6, 28, 68, 80, 90, 104, 120, 143, 144
+On	Type	April 	Round Trip	4	8, 30, 82, 105
+On	Type	April 	One Way	10	7, 29, 69, 70, 91, 108, 109, 141, 146, 153
+On	Type	May 	Round Trip	6	9, 64, 84, 106, 110, 148
+On	Type	May 	One Way	6	10, 31, 32, 71, 83, 132
+On	Type	June 	Round Trip	7	12, 33, 43, 58, 72, 92, 142
+On	Type	June 	One Way	6	11, 44, 85, 125, 126, 149
+On	Type	July 	Round Trip	7	14, 34, 86, 93, 122, 133, 150
+On	Type	July 	One Way	5	13, 45, 73, 74, 100
+On	Type	August 	Round Trip	6	15, 35, 46, 59, 101, 113
+On	Type	August 	One Way	7	16, 55, 75, 81, 127, 134, 152
+On	Type	September 	Round Trip	6	17, 47, 52, 76, 87, 107
+On	Type	September 	One Way	6	18, 36, 88, 118, 128, 135
+On	Type	Octuber 	Round Trip	9	19, 48, 77, 94, 95, 129, 130, 131, 151
+On	Type	Octuber 	One Way	5	20, 37, 78, 96, 147
+On	Type	November 	Round Trip	7	21, 38, 53, 97, 111, 136, 154
+On	Type	November 	One Way	8	22, 39, 60, 61, 63, 139, 155, 156
+On	Type	December 	Round Trip	8	24, 49, 79, 99, 112, 123, 137, 157
+On	Type	December 	One Way	5	23, 40, 54, 98, 138
+Returning	Arriving In	January	Acapulco	1	1
+Returning	Arriving In	January	Frankfurt	1	3
+Returning	Arriving In	January	London	2	5, 127
+Returning	Arriving In	January	New York	1	60
+Returning	Arriving In	January	Paris	1	86
+Returning	Arriving In	January	Portland	2	96, 135
+Returning	Arriving In	January	San Francisco	1	32
+Returning	Arriving In	January	Seattle	1	112
+Returning	Arriving In	January	Sydney	1	82
+Returning	Arriving In	January	Zurich	1	44
+Returning	Arriving In	February 	Acapulco	2	4, 137
+Returning	Arriving In	February 	Frankfurt	1	2
+Returning	Arriving In	February 	London	1	48
+Returning	Arriving In	February 	New York	2	6, 157
+Returning	Arriving In	February 	Paris	1	87
+Returning	Arriving In	February 	Portland	1	34
+Returning	Arriving In	February 	San Francisco	1	101
+Returning	Arriving In	February 	Seattle	1	53
+Returning	Arriving In	February 	Sydney	1	84
+Returning	Arriving In	February 	Zurich	2	108, 125
+Returning	Arriving In	March 	Acapulco	2	120, 122
+Returning	Arriving In	March 	Frankfurt	2	85, 151
+Returning	Arriving In	March 	London	1	7
+Returning	Arriving In	March 	New York	1	50
+Returning	Arriving In	March 	Paris	2	9, 138
+Returning	Arriving In	March 	Portland	1	67
+Returning	Arriving In	March 	San Francisco	1	89
+Returning	Arriving In	March 	Seattle	2	126, 156
+Returning	Arriving In	March 	Sydney	1	35
+Returning	Arriving In	March 	Zurich	1	36
+Returning	Arriving In	April 	Acapulco	1	121
+Returning	Arriving In	April 	Frankfurt	2	55, 149
+Returning	Arriving In	April 	London	1	88
+Returning	Arriving In	April 	New York	1	8
+Returning	Arriving In	April 	Paris	1	80
+Returning	Arriving In	April 	Portland	2	10, 49
+Returning	Arriving In	April 	San Francisco	2	65, 97
+Returning	Arriving In	April 	Seattle	1	37
+Returning	Arriving In	April 	Sydney	1	74
+Returning	Arriving In	April 	Zurich	1	116
+Returning	Arriving In	May 	Acapulco	1	77
+Returning	Arriving In	May 	Frankfurt	1	64
+Returning	Arriving In	May 	London	2	38, 141
+Returning	Arriving In	May 	New York	1	128
+Returning	Arriving In	May 	Paris	1	11
+Returning	Arriving In	May 	Portland	1	103
+Returning	Arriving In	May 	San Francisco	2	13, 90
+Returning	Arriving In	May 	Seattle	1	15
+Returning	Arriving In	May 	Sydney	1	66
+Returning	Arriving In	May 	Zurich	1	99
+Returning	Arriving In	June 	Acapulco	1	47
+Returning	Arriving In	June 	Frankfurt	2	78, 109
+Returning	Arriving In	June 	London	1	79
+Returning	Arriving In	June 	New York	1	102
+Returning	Arriving In	June 	Paris	2	39, 124
+Returning	Arriving In	June 	Portland	1	12
+Returning	Arriving In	June 	San Francisco	1	16
+Returning	Arriving In	June 	Seattle	2	14, 145
+Returning	Arriving In	June 	Sydney	1	148
+Returning	Arriving In	June 	Zurich	1	68
+Returning	Arriving In	July 	Acapulco	2	23, 113
+Returning	Arriving In	July 	Frankfurt	1	104
+Returning	Arriving In	July 	London	3	92, 132, 146
+Returning	Arriving In	July 	New York	1	93
+Returning	Arriving In	July 	Paris	1	114
+Returning	Arriving In	July 	Portland	1	57
+Returning	Arriving In	July 	San Francisco	1	17
+Returning	Arriving In	July 	Seattle	2	69, 147
+Returning	Arriving In	July 	Sydney	1	19
+Returning	Arriving In	July 	Zurich	1	21
+Returning	Arriving In	August 	Acapulco	1	70
+Returning	Arriving In	August 	Frankfurt	1	24
+Returning	Arriving In	August 	London	1	62
+Returning	Arriving In	August 	New York	2	72, 152
+Returning	Arriving In	August 	Paris	1	100
+Returning	Arriving In	August 	Portland	1	119
+Returning	Arriving In	August 	San Francisco	1	110
+Returning	Arriving In	August 	Seattle	1	18
+Returning	Arriving In	August 	Sydney	2	22, 144
+Returning	Arriving In	August 	Zurich	1	20
+Returning	Arriving In	September 	Acapulco	2	61, 106
+Returning	Arriving In	September 	Frankfurt	1	52
+Returning	Arriving In	September 	London	2	25, 139
+Returning	Arriving In	September 	New York	2	26, 131
+Returning	Arriving In	September 	Paris	1	117
+Returning	Arriving In	September 	Portland	1	153
+Returning	Arriving In	September 	San Francisco	2	91, 129
+Returning	Arriving In	September 	Seattle	1	58
+Returning	Arriving In	September 	Sydney	1	40
+Returning	Arriving In	September 	Zurich	2	75, 133
+Returning	Arriving In	Octuber 	Acapulco	1	27
+Returning	Arriving In	Octuber 	Frankfurt	1	111
+Returning	Arriving In	Octuber 	London	1	59
+Returning	Arriving In	Octuber 	New York	1	54
+Returning	Arriving In	Octuber 	Paris	1	29
+Returning	Arriving In	Octuber 	Portland	1	94
+Returning	Arriving In	Octuber 	San Francisco	1	118
+Returning	Arriving In	Octuber 	Seattle	2	71, 150
+Returning	Arriving In	Octuber 	Sydney	2	51, 142
+Returning	Arriving In	Octuber 	Zurich	1	41
+Returning	Arriving In	November 	Acapulco	1	43
+Returning	Arriving In	November 	Frankfurt	1	28
+Returning	Arriving In	November 	London	1	73
+Returning	Arriving In	November 	New York	2	81, 154
+Returning	Arriving In	November 	Paris	2	56, 130
+Returning	Arriving In	November 	Portland	2	30, 134
+Returning	Arriving In	November 	San Francisco	2	107, 123
+Returning	Arriving In	November 	Seattle	1	42
+Returning	Arriving In	November 	Sydney	1	136
+Returning	Arriving In	November 	Zurich	1	83
+Returning	Arriving In	December 	Acapulco	2	105, 140
+Returning	Arriving In	December 	Frankfurt	1	45
+Returning	Arriving In	December 	London	1	115
+Returning	Arriving In	December 	New York	1	31
+Returning	Arriving In	December 	Paris	1	46
+Returning	Arriving In	December 	Portland	1	63
+Returning	Arriving In	December 	San Francisco	1	33
+Returning	Arriving In	December 	Seattle	2	98, 143
+Returning	Arriving In	December 	Sydney	1	76
+Returning	Arriving In	December 	Zurich	2	95, 155
+Returning	Departing From	January	Acapulco	3	1, 96, 112
+Returning	Departing From	January	Frankfurt	1	5
+Returning	Departing From	January	London	1	3
+Returning	Departing From	January	New York	1	32
+Returning	Departing From	January	Paris	1	135
+Returning	Departing From	January	Portland	1	60
+Returning	Departing From	January	San Francisco	1	82
+Returning	Departing From	January	Seattle	1	44
+Returning	Departing From	January	Sydney	1	86
+Returning	Departing From	January	Zurich	1	127
+Returning	Departing From	February 	Acapulco	1	6
+Returning	Departing From	February 	Frankfurt	2	2, 53
+Returning	Departing From	February 	London	2	84, 125
+Returning	Departing From	February 	New York	1	4
+Returning	Departing From	February 	Paris	1	48
+Returning	Departing From	February 	Portland	1	108
+Returning	Departing From	February 	San Francisco	1	137
+Returning	Departing From	February 	Seattle	1	157
+Returning	Departing From	February 	Sydney	1	101
+Returning	Departing From	February 	Zurich	2	34, 87
+Returning	Departing From	March 	Acapulco	1	138
+Returning	Departing From	March 	Frankfurt	2	36, 122
+Returning	Departing From	March 	London	2	7, 50
+Returning	Departing From	March 	New York	2	120, 156
+Returning	Departing From	March 	Paris	1	9
+Returning	Departing From	March 	Portland	1	35
+Returning	Departing From	March 	San Francisco	2	85, 151
+Returning	Departing From	March 	Seattle	1	89
+Returning	Departing From	March 	Sydney	1	67
+Returning	Departing From	March 	Zurich	1	126
+Returning	Departing From	April 	Acapulco	2	74, 149
+Returning	Departing From	April 	Frankfurt	1	80
+Returning	Departing From	April 	London	1	37
+Returning	Departing From	April 	New York	2	8, 88
+Returning	Departing From	April 	Paris	1	97
+Returning	Departing From	April 	Portland	1	10
+Returning	Departing From	April 	San Francisco	2	49, 116
+Returning	Departing From	April 	Seattle	1	121
+Returning	Departing From	April 	Sydney	1	65
+Returning	Departing From	April 	Zurich	1	55
+Returning	Departing From	May 	Acapulco	1	128
+Returning	Departing From	May 	Frankfurt	1	99
+Returning	Departing From	May 	London	1	141
+Returning	Departing From	May 	New York	1	66
+Returning	Departing From	May 	Paris	1	13
+Returning	Departing From	May 	Portland	2	11, 90
+Returning	Departing From	May 	San Francisco	1	15
+Returning	Departing From	May 	Seattle	2	38, 103
+Returning	Departing From	May 	Sydney	1	64
+Returning	Departing From	May 	Zurich	1	77
+Returning	Departing From	June 	Acapulco	1	47
+Returning	Departing From	June 	Frankfurt	1	78
+Returning	Departing From	June 	London	2	79, 145
+Returning	Departing From	June 	New York	1	109
+Returning	Departing From	June 	Paris	1	12
+Returning	Departing From	June 	Portland	1	14
+Returning	Departing From	June 	San Francisco	2	39, 102
+Returning	Departing From	June 	Seattle	2	16, 148
+Returning	Departing From	June 	Sydney	1	124
+Returning	Departing From	June 	Zurich	1	68
+Returning	Departing From	July 	Acapulco	1	113
+Returning	Departing From	July 	Frankfurt	1	92
+Returning	Departing From	July 	London	1	147
+Returning	Departing From	July 	New York	1	114
+Returning	Departing From	July 	Paris	2	69, 104
+Returning	Departing From	July 	Portland	2	57, 146
+Returning	Departing From	July 	San Francisco	2	17, 132
+Returning	Departing From	July 	Seattle	2	19, 93
+Returning	Departing From	July 	Sydney	1	21
+Returning	Departing From	July 	Zurich	1	23
+Returning	Departing From	August 	Acapulco	1	62
+Returning	Departing From	August 	Frankfurt	1	110
+Returning	Departing From	August 	London	1	100
+Returning	Departing From	August 	New York	1	144
+Returning	Departing From	August 	Paris	1	119
+Returning	Departing From	August 	Portland	1	70
+Returning	Departing From	August 	San Francisco	2	20, 152
+Returning	Departing From	August 	Seattle	1	18
+Returning	Departing From	August 	Sydney	2	24, 72
+Returning	Departing From	August 	Zurich	1	22
+Returning	Departing From	September 	Acapulco	1	139
+Returning	Departing From	September 	Frankfurt	1	61
+Returning	Departing From	September 	London	1	75
+Returning	Departing From	September 	New York	2	58, 133
+Returning	Departing From	September 	Paris	1	40
+Returning	Departing From	September 	Portland	1	52
+Returning	Departing From	September 	San Francisco	1	117
+Returning	Departing From	September 	Seattle	2	91, 106
+Returning	Departing From	September 	Sydney	2	25, 131
+Returning	Departing From	September 	Zurich	3	26, 129, 153
+Returning	Departing From	Octuber 	Acapulco	1	29
+Returning	Departing From	Octuber 	Frankfurt	1	51
+Returning	Departing From	Octuber 	London	1	27
+Returning	Departing From	Octuber 	New York	2	54, 94
+Returning	Departing From	Octuber 	Paris	1	59
+Returning	Departing From	Octuber 	Portland	1	41
+Returning	Departing From	Octuber 	San Francisco	1	118
+Returning	Departing From	Octuber 	Seattle	1	111
+Returning	Departing From	Octuber 	Sydney	2	142, 150
+Returning	Departing From	Octuber 	Zurich	1	71
+Returning	Departing From	November 	Acapulco	1	83
+Returning	Departing From	November 	Frankfurt	2	30, 134
+Returning	Departing From	November 	London	1	107
+Returning	Departing From	November 	New York	2	28, 136
+Returning	Departing From	November 	Paris	1	81
+Returning	Departing From	November 	Portland	2	123, 130
+Returning	Departing From	November 	San Francisco	2	43, 73
+Returning	Departing From	November 	Seattle	1	56
+Returning	Departing From	November 	Sydney	1	42
+Returning	Departing From	November 	Zurich	1	154
+Returning	Departing From	December 	Acapulco	2	33, 45
+Returning	Departing From	December 	Frankfurt	1	31
+Returning	Departing From	December 	London	1	63
+Returning	Departing From	December 	New York	1	46
+Returning	Departing From	December 	Paris	2	95, 140
+Returning	Departing From	December 	Portland	1	143
+Returning	Departing From	December 	San Francisco	1	155
+Returning	Departing From	December 	Seattle	1	98
+Returning	Departing From	December 	Sydney	2	76, 105
+Returning	Departing From	December 	Zurich	1	115
+Returning	Passengers	January	1	3	1, 60, 135
+Returning	Passengers	January	2	2	44, 82
+Returning	Passengers	January	3	3	3, 32, 112
+Returning	Passengers	January	4	4	5, 86, 96, 127
+Returning	Passengers	February 	1	3	53, 101, 125
+Returning	Passengers	February 	2	4	2, 87, 108, 157
+Returning	Passengers	February 	3	3	6, 34, 48
+Returning	Passengers	February 	4	3	4, 84, 137
+Returning	Passengers	March 	1	4	7, 36, 120, 126
+Returning	Passengers	March 	2	4	9, 67, 122, 156
+Returning	Passengers	March 	3	2	50, 89
+Returning	Passengers	March 	4	4	35, 85, 138, 151
+Returning	Passengers	April 	1	2	10, 74
+Returning	Passengers	April 	2	3	8, 49, 97
+Returning	Passengers	April 	3	5	55, 80, 88, 116, 149
+Returning	Passengers	April 	4	3	37, 65, 121
+Returning	Passengers	May 	1	2	13, 77
+Returning	Passengers	May 	2	4	64, 90, 103, 128
+Returning	Passengers	May 	3	3	11, 15, 66
+Returning	Passengers	May 	4	3	38, 99, 141
+Returning	Passengers	June 	1	4	16, 79, 102, 148
+Returning	Passengers	June 	2	3	14, 39, 109
+Returning	Passengers	June 	3	3	47, 78, 145
+Returning	Passengers	June 	4	3	12, 68, 124
+Returning	Passengers	July 	1	5	57, 92, 104, 114, 146
+Returning	Passengers	July 	2	2	19, 23
+Returning	Passengers	July 	3	3	21, 93, 132
+Returning	Passengers	July 	4	4	17, 69, 113, 147
+Returning	Passengers	August 	1	3	20, 24, 110
+Returning	Passengers	August 	2	3	62, 100, 144
+Returning	Passengers	August 	3	3	18, 70, 152
+Returning	Passengers	August 	4	3	22, 72, 119
+Returning	Passengers	September 	1	4	26, 58, 91, 129
+Returning	Passengers	September 	2	4	25, 52, 75, 139
+Returning	Passengers	September 	3	3	40, 117, 131
+Returning	Passengers	September 	4	4	61, 106, 133, 153
+Returning	Passengers	Octuber 	1	3	51, 118, 150
+Returning	Passengers	Octuber 	2	3	27, 59, 94
+Returning	Passengers	Octuber 	3	3	71, 111, 142
+Returning	Passengers	Octuber 	4	3	29, 41, 54
+Returning	Passengers	November 	1	3	28, 73, 136
+Returning	Passengers	November 	2	4	56, 81, 134, 154
+Returning	Passengers	November 	3	3	30, 43, 130
+Returning	Passengers	November 	4	4	42, 83, 107, 123
+Returning	Passengers	December 	1	3	46, 76, 140
+Returning	Passengers	December 	2	4	33, 98, 115, 155
+Returning	Passengers	December 	3	4	63, 95, 105, 143
+Returning	Passengers	December 	4	2	31, 45
+Returning	Airline	January	No preferent 	2	1, 5
+Returning	Airline	January	Blu Skies Airlines	3	32, 86, 127
+Returning	Airline	January	Unified Airlines	5	3, 44, 82, 112, 135
+Returning	Airline	January	Pangea Airlines	2	60, 96
+Returning	Airline	February 	No preferent 	2	34, 87
+Returning	Airline	February 	Blu Skies Airlines	3	2, 6, 137
+Returning	Airline	February 	Unified Airlines	5	53, 84, 101, 108, 125
+Returning	Airline	February 	Pangea Airlines	3	4, 48, 157
+Returning	Airline	March 	No preferent 	3	50, 89, 122
+Returning	Airline	March 	Blu Skies Airlines	4	7, 36, 138, 151
+Returning	Airline	March 	Unified Airlines	4	9, 67, 120, 126
+Returning	Airline	March 	Pangea Airlines	3	35, 85, 156
+Returning	Airline	April 	No preferent 	4	8, 74, 80, 149
+Returning	Airline	April 	Blu Skies Airlines	4	55, 65, 88, 121
+Returning	Airline	April 	Unified Airlines	3	37, 97, 116
+Returning	Airline	April 	Pangea Airlines	2	10, 49
+Returning	Airline	May 	No preferent 	2	11, 103
+Returning	Airline	May 	Blu Skies Airlines	4	15, 90, 128, 141
+Returning	Airline	May 	Unified Airlines	3	13, 77, 99
+Returning	Airline	May 	Pangea Airlines	3	38, 64, 66
+Returning	Airline	June 	No preferent 	3	16, 78, 145
+Returning	Airline	June 	Blu Skies Airlines	3	12, 39, 124
+Returning	Airline	June 	Unified Airlines	2	47, 102
+Returning	Airline	June 	Pangea Airlines	5	14, 68, 79, 109, 148
+Returning	Airline	July 	No preferent 	3	23, 69, 132
+Returning	Airline	July 	Blu Skies Airlines	3	19, 57, 147
+Returning	Airline	July 	Unified Airlines	6	17, 92, 93, 113, 114, 146
+Returning	Airline	July 	Pangea Airlines	2	21, 104
+Returning	Airline	August 	No preferent 	2	20, 72
+Returning	Airline	August 	Blu Skies Airlines	3	24, 70, 119
+Returning	Airline	August 	Unified Airlines	2	22, 62
+Returning	Airline	August 	Pangea Airlines	5	18, 100, 110, 144, 152
+Returning	Airline	September 	No preferent 	4	40, 52, 117, 131
+Returning	Airline	September 	Blu Skies Airlines	5	58, 75, 106, 133, 153
+Returning	Airline	September 	Unified Airlines	2	25, 91
+Returning	Airline	September 	Pangea Airlines	4	26, 61, 129, 139
+Returning	Airline	Octuber 	No preferent 	4	59, 94, 111, 142
+Returning	Airline	Octuber 	Blu Skies Airlines	2	51, 71
+Returning	Airline	Octuber 	Unified Airlines	3	41, 54, 118
+Returning	Airline	Octuber 	Pangea Airlines	3	27, 29, 150
+Returning	Airline	November 	No preferent 	5	42, 73, 83, 123, 130
+Returning	Airline	November 	Blu Skies Airlines	3	43, 107, 136
+Returning	Airline	November 	Unified Airlines	2	28, 30
+Returning	Airline	November 	Pangea Airlines	4	56, 81, 134, 154
+Returning	Airline	December 	No preferent 	3	31, 63, 143
+Returning	Airline	December 	Blu Skies Airlines	3	45, 95, 98
+Returning	Airline	December 	Unified Airlines	3	46, 105, 115
+Returning	Airline	December 	Pangea Airlines	4	33, 76, 140, 155
+Returning	Service Class	January	Economy class	6	1, 60, 82, 96, 112, 127
+Returning	Service Class	January	Business class	3	5, 44, 135
+Returning	Service Class	January	Frist class	3	3, 32, 86
+Returning	Service Class	February 	Economy class	4	4, 34, 137, 157
+Returning	Service Class	February 	Business class	6	2, 48, 84, 101, 108, 125
+Returning	Service Class	February 	Frist class	3	6, 53, 87
+Returning	Service Class	March 	Economy class	6	7, 9, 120, 122, 138, 156
+Returning	Service Class	March 	Business class	4	35, 50, 126, 151
+Returning	Service Class	March 	Frist class	4	36, 67, 85, 89
+Returning	Service Class	April 	Economy class	7	37, 49, 55, 65, 80, 116, 121
+Returning	Service Class	April 	Business class	3	10, 88, 149
+Returning	Service Class	April 	Frist class	3	8, 74, 97
+Returning	Service Class	May 	Economy class	4	15, 77, 90, 99
+Returning	Service Class	May 	Business class	4	11, 13, 128, 141
+Returning	Service Class	May 	Frist class	4	38, 64, 66, 103
+Returning	Service Class	June 	Economy class	3	47, 102, 124
+Returning	Service Class	June 	Business class	4	39, 68, 145, 148
+Returning	Service Class	June 	Frist class	6	12, 14, 16, 78, 79, 109
+Returning	Service Class	July 	Economy class	6	21, 69, 92, 104, 114, 147
+Returning	Service Class	July 	Business class	6	17, 19, 93, 113, 132, 146
+Returning	Service Class	July 	Frist class	2	23, 57
+Returning	Service Class	August 	Economy class	4	18, 72, 110, 152
+Returning	Service Class	August 	Business class	5	24, 62, 70, 119, 144
+Returning	Service Class	August 	Frist class	3	20, 22, 100
+Returning	Service Class	September 	Economy class	6	40, 75, 117, 129, 133, 153
+Returning	Service Class	September 	Business class	7	26, 58, 61, 91, 106, 131, 139
+Returning	Service Class	September 	Frist class	2	25, 52
+Returning	Service Class	Octuber 	Economy class	5	41, 51, 118, 142, 150
+Returning	Service Class	Octuber 	Business class	3	27, 54, 71
+Returning	Service Class	Octuber 	Frist class	4	29, 59, 94, 111
+Returning	Service Class	November 	Economy class	6	28, 56, 73, 123, 134, 136
+Returning	Service Class	November 	Business class	6	30, 42, 81, 107, 130, 154
+Returning	Service Class	November 	Frist class	2	43, 83
+Returning	Service Class	December 	Economy class	5	31, 33, 105, 143, 155
+Returning	Service Class	December 	Business class	6	45, 76, 95, 98, 115, 140
+Returning	Service Class	December 	Frist class	2	46, 63
+Returning	Type	January	Round Trip	6	1, 3, 5, 82, 86, 112
+Returning	Type	January	One Way	6	32, 44, 60, 96, 127, 135
+Returning	Type	February 	Round Trip	8	34, 48, 53, 84, 87, 101, 137, 157
+Returning	Type	February 	One Way	5	2, 4, 6, 108, 125
+Returning	Type	March 	Round Trip	6	9, 35, 50, 67, 122, 151
+Returning	Type	March 	One Way	8	7, 36, 85, 89, 120, 126, 138, 156
+Returning	Type	April 	Round Trip	5	8, 49, 65, 97, 121
+Returning	Type	April 	One Way	8	10, 37, 55, 74, 80, 88, 116, 149
+Returning	Type	May 	Round Trip	5	15, 38, 64, 77, 99
+Returning	Type	May 	One Way	7	11, 13, 66, 90, 103, 128, 141
+Returning	Type	June 	Round Trip	8	12, 14, 47, 79, 102, 124, 145, 148
+Returning	Type	June 	One Way	5	16, 39, 68, 78, 109
+Returning	Type	July 	Round Trip	7	17, 19, 21, 92, 93, 113, 114
+Returning	Type	July 	One Way	7	23, 57, 69, 104, 132, 146, 147
+Returning	Type	August 	Round Trip	5	24, 62, 72, 110, 119
+Returning	Type	August 	One Way	7	18, 20, 22, 70, 100, 144, 152
+Returning	Type	September 	Round Trip	8	26, 52, 58, 106, 117, 129, 131, 133
+Returning	Type	September 	One Way	7	25, 40, 61, 75, 91, 139, 153
+Returning	Type	Octuber 	Round Trip	7	27, 41, 59, 94, 111, 142, 150
+Returning	Type	Octuber 	One Way	5	29, 51, 54, 71, 118
+Returning	Type	November 	Round Trip	8	30, 43, 56, 107, 123, 130, 136, 154
+Returning	Type	November 	One Way	6	28, 42, 73, 81, 83, 134
+Returning	Type	December 	Round Trip	6	33, 46, 76, 95, 105, 140
+Returning	Type	December 	One Way	7	31, 45, 63, 98, 115, 143, 155
+Arriving In	Departing From	Acapulco	Acapulco	3	1, 47, 113
+Arriving In	Departing From	Acapulco	Frankfurt	2	61, 122
+Arriving In	Departing From	Acapulco	London	1	27
+Arriving In	Departing From	Acapulco	New York	2	4, 120
+Arriving In	Departing From	Acapulco	Paris	1	140
+Arriving In	Departing From	Acapulco	Portland	1	70
+Arriving In	Departing From	Acapulco	San Francisco	2	43, 137
+Arriving In	Departing From	Acapulco	Seattle	2	106, 121
+Arriving In	Departing From	Acapulco	Sydney	1	105
+Arriving In	Departing From	Acapulco	Zurich	2	23, 77
+Arriving In	Departing From	Frankfurt	Acapulco	2	45, 149
+Arriving In	Departing From	Frankfurt	Frankfurt	2	2, 78
+Arriving In	Departing From	Frankfurt	London	1	3
+Arriving In	Departing From	Frankfurt	New York	2	28, 109
+Arriving In	Departing From	Frankfurt	Paris	1	104
+Arriving In	Departing From	Frankfurt	Portland	1	52
+Arriving In	Departing From	Frankfurt	San Francisco	2	85, 151
+Arriving In	Departing From	Frankfurt	Seattle	1	111
+Arriving In	Departing From	Frankfurt	Sydney	2	24, 64
+Arriving In	Departing From	Frankfurt	Zurich	1	55
+Arriving In	Departing From	London	Acapulco	2	62, 139
+Arriving In	Departing From	London	Frankfurt	2	5, 92
+Arriving In	Departing From	London	London	3	7, 79, 141
+Arriving In	Departing From	London	New York	1	88
+Arriving In	Departing From	London	Paris	2	48, 59
+Arriving In	Departing From	London	Portland	1	146
+Arriving In	Departing From	London	San Francisco	2	73, 132
+Arriving In	Departing From	London	Seattle	1	38
+Arriving In	Departing From	London	Sydney	1	25
+Arriving In	Departing From	London	Zurich	2	115, 127
+Arriving In	Departing From	New York	Acapulco	2	6, 128
+Arriving In	Departing From	New York	Frankfurt	1	31
+Arriving In	Departing From	New York	London	1	50
+Arriving In	Departing From	New York	New York	2	8, 54
+Arriving In	Departing From	New York	Paris	1	81
+Arriving In	Departing From	New York	Portland	1	60
+Arriving In	Departing From	New York	San Francisco	2	102, 152
+Arriving In	Departing From	New York	Seattle	2	93, 157
+Arriving In	Departing From	New York	Sydney	2	72, 131
+Arriving In	Departing From	New York	Zurich	2	26, 154
+Arriving In	Departing From	Paris	Acapulco	2	29, 138
+Arriving In	Departing From	Paris	Frankfurt	1	80
+Arriving In	Departing From	Paris	London	1	100
+Arriving In	Departing From	Paris	New York	2	46, 114
+Arriving In	Departing From	Paris	Paris	1	9
+Arriving In	Departing From	Paris	Portland	2	11, 130
+Arriving In	Departing From	Paris	San Francisco	2	39, 117
+Arriving In	Departing From	Paris	Seattle	1	56
+Arriving In	Departing From	Paris	Sydney	2	86, 124
+Arriving In	Departing From	Paris	Zurich	1	87
+Arriving In	Departing From	Portland	Acapulco	1	96
+Arriving In	Departing From	Portland	Frankfurt	2	30, 134
+Arriving In	Departing From	Portland	London	1	63
+Arriving In	Departing From	Portland	New York	1	94
+Arriving In	Departing From	Portland	Paris	3	12, 119, 135
+Arriving In	Departing From	Portland	Portland	2	10, 57
+Arriving In	Departing From	Portland	San Francisco	1	49
+Arriving In	Departing From	Portland	Seattle	1	103
+Arriving In	Departing From	Portland	Sydney	1	67
+Arriving In	Departing From	Portland	Zurich	2	34, 153
+Arriving In	Departing From	San Francisco	Acapulco	1	33
+Arriving In	Departing From	San Francisco	Frankfurt	1	110
+Arriving In	Departing From	San Francisco	London	1	107
+Arriving In	Departing From	San Francisco	New York	1	32
+Arriving In	Departing From	San Francisco	Paris	2	13, 97
+Arriving In	Departing From	San Francisco	Portland	2	90, 123
+Arriving In	Departing From	San Francisco	San Francisco	2	17, 118
+Arriving In	Departing From	San Francisco	Seattle	3	16, 89, 91
+Arriving In	Departing From	San Francisco	Sydney	2	65, 101
+Arriving In	Departing From	San Francisco	Zurich	1	129
+Arriving In	Departing From	Seattle	Acapulco	1	112
+Arriving In	Departing From	Seattle	Frankfurt	1	53
+Arriving In	Departing From	Seattle	London	3	37, 145, 147
+Arriving In	Departing From	Seattle	New York	2	58, 156
+Arriving In	Departing From	Seattle	Paris	1	69
+Arriving In	Departing From	Seattle	Portland	2	14, 143
+Arriving In	Departing From	Seattle	San Francisco	1	15
+Arriving In	Departing From	Seattle	Seattle	2	18, 98
+Arriving In	Departing From	Seattle	Sydney	2	42, 150
+Arriving In	Departing From	Seattle	Zurich	2	71, 126
+Arriving In	Departing From	Sydney	Acapulco	1	74
+Arriving In	Departing From	Sydney	Frankfurt	1	51
+Arriving In	Departing From	Sydney	London	1	84
+Arriving In	Departing From	Sydney	New York	3	66, 136, 144
+Arriving In	Departing From	Sydney	Paris	1	40
+Arriving In	Departing From	Sydney	Portland	1	35
+Arriving In	Departing From	Sydney	San Francisco	1	82
+Arriving In	Departing From	Sydney	Seattle	2	19, 148
+Arriving In	Departing From	Sydney	Sydney	2	76, 142
+Arriving In	Departing From	Sydney	Zurich	1	22
+Arriving In	Departing From	Zurich	Acapulco	1	83
+Arriving In	Departing From	Zurich	Frankfurt	2	36, 99
+Arriving In	Departing From	Zurich	London	2	75, 125
+Arriving In	Departing From	Zurich	New York	1	133
+Arriving In	Departing From	Zurich	Paris	1	95
+Arriving In	Departing From	Zurich	Portland	2	41, 108
+Arriving In	Departing From	Zurich	San Francisco	3	20, 116, 155
+Arriving In	Departing From	Zurich	Seattle	1	44
+Arriving In	Departing From	Zurich	Sydney	1	21
+Arriving In	Departing From	Zurich	Zurich	1	68
+Arriving In	Passengers	Acapulco	1	4	1, 77, 120, 140
+Arriving In	Passengers	Acapulco	2	3	23, 27, 122
+Arriving In	Passengers	Acapulco	3	4	43, 47, 70, 105
+Arriving In	Passengers	Acapulco	4	6	4, 61, 106, 113, 121, 137
+Arriving In	Passengers	Frankfurt	1	3	24, 28, 104
+Arriving In	Passengers	Frankfurt	2	4	2, 52, 64, 109
+Arriving In	Passengers	Frankfurt	3	5	3, 55, 78, 111, 149
+Arriving In	Passengers	Frankfurt	4	3	45, 85, 151
+Arriving In	Passengers	London	1	5	7, 73, 79, 92, 146
+Arriving In	Passengers	London	2	5	25, 59, 62, 115, 139
+Arriving In	Passengers	London	3	3	48, 88, 132
+Arriving In	Passengers	London	4	4	5, 38, 127, 141
+Arriving In	Passengers	New York	1	3	26, 60, 102
+Arriving In	Passengers	New York	2	5	8, 81, 128, 154, 157
+Arriving In	Passengers	New York	3	5	6, 50, 93, 131, 152
+Arriving In	Passengers	New York	4	3	31, 54, 72
+Arriving In	Passengers	Paris	1	2	46, 114
+Arriving In	Passengers	Paris	2	5	9, 39, 56, 87, 100
+Arriving In	Passengers	Paris	3	4	11, 80, 117, 130
+Arriving In	Passengers	Paris	4	4	29, 86, 124, 138
+Arriving In	Passengers	Portland	1	3	10, 57, 135
+Arriving In	Passengers	Portland	2	5	49, 67, 94, 103, 134
+Arriving In	Passengers	Portland	3	3	30, 34, 63
+Arriving In	Passengers	Portland	4	4	12, 96, 119, 153
+Arriving In	Passengers	San Francisco	1	7	13, 16, 91, 101, 110, 118, 129
+Arriving In	Passengers	San Francisco	2	3	33, 90, 97
+Arriving In	Passengers	San Francisco	3	2	32, 89
+Arriving In	Passengers	San Francisco	4	4	17, 65, 107, 123
+Arriving In	Passengers	Seattle	1	4	53, 58, 126, 150
+Arriving In	Passengers	Seattle	2	3	14, 98, 156
+Arriving In	Passengers	Seattle	3	6	15, 18, 71, 112, 143, 145
+Arriving In	Passengers	Seattle	4	4	37, 42, 69, 147
+Arriving In	Passengers	Sydney	1	5	51, 74, 76, 136, 148
+Arriving In	Passengers	Sydney	2	3	19, 82, 144
+Arriving In	Passengers	Sydney	3	3	40, 66, 142
+Arriving In	Passengers	Sydney	4	3	22, 35, 84
+Arriving In	Passengers	Zurich	1	3	20, 36, 125
+Arriving In	Passengers	Zurich	2	4	44, 75, 108, 155
+Arriving In	Passengers	Zurich	3	3	21, 95, 116
+Arriving In	Passengers	Zurich	4	5	41, 68, 83, 99, 133
+Arriving In	Airline	Acapulco	No preferent 	3	1, 23, 122
+Arriving In	Airline	Acapulco	Blu Skies Airlines	5	43, 70, 106, 121, 137
+Arriving In	Airline	Acapulco	Unified Airlines	5	47, 77, 105, 113, 120
+Arriving In	Airline	Acapulco	Pangea Airlines	4	4, 27, 61, 140
+Arriving In	Airline	Frankfurt	No preferent 	4	52, 78, 111, 149
+Arriving In	Airline	Frankfurt	Blu Skies Airlines	5	2, 24, 45, 55, 151
+Arriving In	Airline	Frankfurt	Unified Airlines	2	3, 28
+Arriving In	Airline	Frankfurt	Pangea Airlines	4	64, 85, 104, 109
+Arriving In	Airline	London	No preferent 	4	5, 59, 73, 132
+Arriving In	Airline	London	Blu Skies Airlines	4	7, 88, 127, 141
+Arriving In	Airline	London	Unified Airlines	5	25, 62, 92, 115, 146
+Arriving In	Airline	London	Pangea Airlines	4	38, 48, 79, 139
+Arriving In	Airline	New York	No preferent 	5	8, 31, 50, 72, 131
+Arriving In	Airline	New York	Blu Skies Airlines	2	6, 128
+Arriving In	Airline	New York	Unified Airlines	3	54, 93, 102
+Arriving In	Airline	New York	Pangea Airlines	6	26, 60, 81, 152, 154, 157
+Arriving In	Airline	Paris	No preferent 	5	11, 80, 87, 117, 130
+Arriving In	Airline	Paris	Blu Skies Airlines	4	39, 86, 124, 138
+Arriving In	Airline	Paris	Unified Airlines	3	9, 46, 114
+Arriving In	Airline	Paris	Pangea Airlines	3	29, 56, 100
+Arriving In	Airline	Portland	No preferent 	4	34, 63, 94, 103
+Arriving In	Airline	Portland	Blu Skies Airlines	4	12, 57, 119, 153
+Arriving In	Airline	Portland	Unified Airlines	3	30, 67, 135
+Arriving In	Airline	Portland	Pangea Airlines	4	10, 49, 96, 134
+Arriving In	Airline	San Francisco	No preferent 	3	16, 89, 123
+Arriving In	Airline	San Francisco	Blu Skies Airlines	4	32, 65, 90, 107
+Arriving In	Airline	San Francisco	Unified Airlines	6	13, 17, 91, 97, 101, 118
+Arriving In	Airline	San Francisco	Pangea Airlines	3	33, 110, 129
+Arriving In	Airline	Seattle	No preferent 	4	42, 69, 143, 145
+Arriving In	Airline	Seattle	Blu Skies Airlines	5	15, 58, 71, 98, 147
+Arriving In	Airline	Seattle	Unified Airlines	4	37, 53, 112, 126
+Arriving In	Airline	Seattle	Pangea Airlines	4	14, 18, 150, 156
+Arriving In	Airline	Sydney	No preferent 	3	40, 74, 142
+Arriving In	Airline	Sydney	Blu Skies Airlines	3	19, 51, 136
+Arriving In	Airline	Sydney	Unified Airlines	3	22, 82, 84
+Arriving In	Airline	Sydney	Pangea Airlines	5	35, 66, 76, 144, 148
+Arriving In	Airline	Zurich	No preferent 	2	20, 83
+Arriving In	Airline	Zurich	Blu Skies Airlines	4	36, 75, 95, 133
+Arriving In	Airline	Zurich	Unified Airlines	6	41, 44, 99, 108, 116, 125
+Arriving In	Airline	Zurich	Pangea Airlines	3	21, 68, 155
+Arriving In	Service Class	Acapulco	Economy class	9	1, 4, 47, 77, 105, 120, 121, 122, 137
+Arriving In	Service Class	Acapulco	Business class	6	27, 61, 70, 106, 113, 140
+Arriving In	Service Class	Acapulco	Frist class	2	23, 43
+Arriving In	Service Class	Frankfurt	Economy class	3	28, 55, 104
+Arriving In	Service Class	Frankfurt	Business class	5	2, 24, 45, 149, 151
+Arriving In	Service Class	Frankfurt	Frist class	7	3, 52, 64, 78, 85, 109, 111
+Arriving In	Service Class	London	Economy class	4	7, 73, 92, 127
+Arriving In	Service Class	London	Business class	9	5, 48, 62, 88, 115, 132, 139, 141, 146
+Arriving In	Service Class	London	Frist class	4	25, 38, 59, 79
+Arriving In	Service Class	New York	Economy class	6	31, 60, 72, 102, 152, 157
+Arriving In	Service Class	New York	Business class	8	26, 50, 54, 81, 93, 128, 131, 154
+Arriving In	Service Class	New York	Frist class	2	6, 8
+Arriving In	Service Class	Paris	Economy class	7	9, 56, 80, 114, 117, 124, 138
+Arriving In	Service Class	Paris	Business class	3	11, 39, 130
+Arriving In	Service Class	Paris	Frist class	5	29, 46, 86, 87, 100
+Arriving In	Service Class	Portland	Economy class	5	34, 49, 96, 134, 153
+Arriving In	Service Class	Portland	Business class	4	10, 30, 119, 135
+Arriving In	Service Class	Portland	Frist class	6	12, 57, 63, 67, 94, 103
+Arriving In	Service Class	San Francisco	Economy class	7	33, 65, 90, 110, 118, 123, 129
+Arriving In	Service Class	San Francisco	Business class	5	13, 17, 91, 101, 107
+Arriving In	Service Class	San Francisco	Frist class	4	16, 32, 89, 97
+Arriving In	Service Class	Seattle	Economy class	9	15, 18, 37, 69, 112, 143, 147, 150, 156
+Arriving In	Service Class	Seattle	Business class	6	42, 58, 71, 98, 126, 145
+Arriving In	Service Class	Seattle	Frist class	2	14, 53
+Arriving In	Service Class	Sydney	Economy class	5	40, 51, 82, 136, 142
+Arriving In	Service Class	Sydney	Business class	6	19, 35, 76, 84, 144, 148
+Arriving In	Service Class	Sydney	Frist class	3	22, 66, 74
+Arriving In	Service Class	Zurich	Economy class	7	21, 41, 75, 99, 116, 133, 155
+Arriving In	Service Class	Zurich	Business class	5	44, 68, 95, 108, 125
+Arriving In	Service Class	Zurich	Frist class	3	20, 36, 83
+Arriving In	Type	Acapulco	Round Trip	12	1, 27, 43, 47, 77, 105, 106, 113, 121, 122, 137, 140
+Arriving In	Type	Acapulco	One Way	5	4, 23, 61, 70, 120
+Arriving In	Type	Frankfurt	Round Trip	6	3, 24, 52, 64, 111, 151
+Arriving In	Type	Frankfurt	One Way	9	2, 28, 45, 55, 78, 85, 104, 109, 149
+Arriving In	Type	London	Round Trip	7	5, 38, 48, 59, 62, 79, 92
+Arriving In	Type	London	One Way	10	7, 25, 73, 88, 115, 127, 132, 139, 141, 146
+Arriving In	Type	New York	Round Trip	9	8, 26, 50, 72, 93, 102, 131, 154, 157
+Arriving In	Type	New York	One Way	7	6, 31, 54, 60, 81, 128, 152
+Arriving In	Type	Paris	Round Trip	9	9, 46, 56, 86, 87, 114, 117, 124, 130
+Arriving In	Type	Paris	One Way	6	11, 29, 39, 80, 100, 138
+Arriving In	Type	Portland	Round Trip	7	12, 30, 34, 49, 67, 94, 119
+Arriving In	Type	Portland	One Way	8	10, 57, 63, 96, 103, 134, 135, 153
+Arriving In	Type	San Francisco	Round Trip	9	17, 33, 65, 97, 101, 107, 110, 123, 129
+Arriving In	Type	San Francisco	One Way	7	13, 16, 32, 89, 90, 91, 118
+Arriving In	Type	Seattle	Round Trip	7	14, 15, 53, 58, 112, 145, 150
+Arriving In	Type	Seattle	One Way	10	18, 37, 42, 69, 71, 98, 126, 143, 147, 156
+Arriving In	Type	Sydney	Round Trip	8	19, 35, 76, 82, 84, 136, 142, 148
+Arriving In	Type	Sydney	One Way	6	22, 40, 51, 66, 74, 144
+Arriving In	Type	Zurich	Round Trip	5	21, 41, 95, 99, 133
+Arriving In	Type	Zurich	One Way	10	20, 36, 44, 68, 75, 83, 108, 116, 125, 155
+Departing From	Passengers	Acapulco	1	2	1, 74
+Departing From	Passengers	Acapulco	2	4	33, 62, 128, 139
+Departing From	Passengers	Acapulco	3	4	6, 47, 112, 149
+Departing From	Passengers	Acapulco	4	6	29, 45, 83, 96, 113, 138
+Departing From	Passengers	Frankfurt	1	5	36, 51, 53, 92, 110
+Departing From	Passengers	Frankfurt	2	3	2, 122, 134
+Departing From	Passengers	Frankfurt	3	3	30, 78, 80
+Departing From	Passengers	Frankfurt	4	4	5, 31, 61, 99
+Departing From	Passengers	London	1	3	7, 79, 125
+Departing From	Passengers	London	2	3	27, 75, 100
+Departing From	Passengers	London	3	4	3, 50, 63, 145
+Departing From	Passengers	London	4	5	37, 84, 107, 141, 147
+Departing From	Passengers	New York	1	6	28, 46, 58, 114, 120, 136
+Departing From	Passengers	New York	2	5	8, 94, 109, 144, 156
+Departing From	Passengers	New York	3	3	32, 66, 88
+Departing From	Passengers	New York	4	3	4, 54, 133
+Departing From	Passengers	Paris	1	4	13, 104, 135, 140
+Departing From	Passengers	Paris	2	4	9, 59, 81, 97
+Departing From	Passengers	Paris	3	3	40, 48, 95
+Departing From	Passengers	Paris	4	3	12, 69, 119
+Departing From	Passengers	Portland	1	4	10, 57, 60, 146
+Departing From	Passengers	Portland	2	4	14, 52, 90, 108
+Departing From	Passengers	Portland	3	4	11, 70, 130, 143
+Departing From	Passengers	Portland	4	3	35, 41, 123
+Departing From	Passengers	San Francisco	1	4	20, 73, 102, 118
+Departing From	Passengers	San Francisco	2	4	39, 49, 82, 155
+Departing From	Passengers	San Francisco	3	6	15, 43, 116, 117, 132, 152
+Departing From	Passengers	San Francisco	4	4	17, 85, 137, 151
+Departing From	Passengers	Seattle	1	3	16, 91, 148
+Departing From	Passengers	Seattle	2	6	19, 44, 56, 98, 103, 157
+Departing From	Passengers	Seattle	3	4	18, 89, 93, 111
+Departing From	Passengers	Seattle	4	3	38, 106, 121
+Departing From	Passengers	Sydney	1	4	24, 76, 101, 150
+Departing From	Passengers	Sydney	2	3	25, 64, 67
+Departing From	Passengers	Sydney	3	4	21, 105, 131, 142
+Departing From	Passengers	Sydney	4	5	42, 65, 72, 86, 124
+Departing From	Passengers	Zurich	1	4	26, 77, 126, 129
+Departing From	Passengers	Zurich	2	4	23, 87, 115, 154
+Departing From	Passengers	Zurich	3	3	34, 55, 71
+Departing From	Passengers	Zurich	4	4	22, 68, 127, 153
+Departing From	Airline	Acapulco	No preferent 	4	1, 74, 83, 149
+Departing From	Airline	Acapulco	Blu Skies Airlines	4	6, 45, 128, 138
+Departing From	Airline	Acapulco	Unified Airlines	4	47, 62, 112, 113
+Departing From	Airline	Acapulco	Pangea Airlines	4	29, 33, 96, 139
+Departing From	Airline	Frankfurt	No preferent 	5	5, 31, 78, 80, 122
+Departing From	Airline	Frankfurt	Blu Skies Airlines	3	2, 36, 51
+Departing From	Airline	Frankfurt	Unified Airlines	4	30, 53, 92, 99
+Departing From	Airline	Frankfurt	Pangea Airlines	3	61, 110, 134
+Departing From	Airline	London	No preferent 	3	50, 63, 145
+Departing From	Airline	London	Blu Skies Airlines	5	7, 75, 107, 141, 147
+Departing From	Airline	London	Unified Airlines	4	3, 37, 84, 125
+Departing From	Airline	London	Pangea Airlines	3	27, 79, 100
+Departing From	Airline	New York	No preferent 	2	8, 94
+Departing From	Airline	New York	Blu Skies Airlines	5	32, 58, 88, 133, 136
+Departing From	Airline	New York	Unified Airlines	5	28, 46, 54, 114, 120
+Departing From	Airline	New York	Pangea Airlines	5	4, 66, 109, 144, 156
+Departing From	Airline	Paris	No preferent 	3	40, 59, 69
+Departing From	Airline	Paris	Blu Skies Airlines	3	12, 95, 119
+Departing From	Airline	Paris	Unified Airlines	4	9, 13, 97, 135
+Departing From	Airline	Paris	Pangea Airlines	4	48, 81, 104, 140
+Departing From	Airline	Portland	No preferent 	5	11, 52, 123, 130, 143
+Departing From	Airline	Portland	Blu Skies Airlines	3	57, 70, 90
+Departing From	Airline	Portland	Unified Airlines	3	41, 108, 146
+Departing From	Airline	Portland	Pangea Airlines	4	10, 14, 35, 60
+Departing From	Airline	San Francisco	No preferent 	4	20, 73, 117, 132
+Departing From	Airline	San Francisco	Blu Skies Airlines	5	15, 39, 43, 137, 151
+Departing From	Airline	San Francisco	Unified Airlines	5	17, 82, 102, 116, 118
+Departing From	Airline	San Francisco	Pangea Airlines	4	49, 85, 152, 155
+Departing From	Airline	Seattle	No preferent 	4	16, 89, 103, 111
+Departing From	Airline	Seattle	Blu Skies Airlines	4	19, 98, 106, 121
+Departing From	Airline	Seattle	Unified Airlines	3	44, 91, 93
+Departing From	Airline	Seattle	Pangea Airlines	5	18, 38, 56, 148, 157
+Departing From	Airline	Sydney	No preferent 	4	42, 72, 131, 142
+Departing From	Airline	Sydney	Blu Skies Airlines	4	24, 65, 86, 124
+Departing From	Airline	Sydney	Unified Airlines	4	25, 67, 101, 105
+Departing From	Airline	Sydney	Pangea Airlines	4	21, 64, 76, 150
+Departing From	Airline	Zurich	No preferent 	3	23, 34, 87
+Departing From	Airline	Zurich	Blu Skies Airlines	4	55, 71, 127, 153
+Departing From	Airline	Zurich	Unified Airlines	4	22, 77, 115, 126
+Departing From	Airline	Zurich	Pangea Airlines	4	26, 68, 129, 154
+Departing From	Service Class	Acapulco	Economy class	6	1, 33, 47, 96, 112, 138
+Departing From	Service Class	Acapulco	Business class	6	45, 62, 113, 128, 139, 149
+Departing From	Service Class	Acapulco	Frist class	4	6, 29, 74, 83
+Departing From	Service Class	Frankfurt	Economy class	8	31, 51, 80, 92, 99, 110, 122, 134
+Departing From	Service Class	Frankfurt	Business class	4	2, 5, 30, 61
+Departing From	Service Class	Frankfurt	Frist class	3	36, 53, 78
+Departing From	Service Class	London	Economy class	4	7, 37, 75, 147
+Departing From	Service Class	London	Business class	7	27, 50, 84, 107, 125, 141, 145
+Departing From	Service Class	London	Frist class	4	3, 63, 79, 100
+Departing From	Service Class	New York	Economy class	7	4, 28, 114, 120, 133, 136, 156
+Departing From	Service Class	New York	Business class	4	54, 58, 88, 144
+Departing From	Service Class	New York	Frist class	6	8, 32, 46, 66, 94, 109
+Departing From	Service Class	Paris	Economy class	4	9, 40, 69, 104
+Departing From	Service Class	Paris	Business class	7	13, 48, 81, 95, 119, 135, 140
+Departing From	Service Class	Paris	Frist class	3	12, 59, 97
+Departing From	Service Class	Portland	Economy class	5	41, 60, 90, 123, 143
+Departing From	Service Class	Portland	Business class	7	10, 11, 35, 70, 108, 130, 146
+Departing From	Service Class	Portland	Frist class	3	14, 52, 57
+Departing From	Service Class	San Francisco	Economy class	11	15, 49, 73, 82, 102, 116, 117, 118, 137, 152, 155
+Departing From	Service Class	San Francisco	Business class	4	17, 39, 132, 151
+Departing From	Service Class	San Francisco	Frist class	3	20, 43, 85
+Departing From	Service Class	Seattle	Economy class	4	18, 56, 121, 157
+Departing From	Service Class	Seattle	Business class	7	19, 44, 91, 93, 98, 106, 148
+Departing From	Service Class	Seattle	Frist class	5	16, 38, 89, 103, 111
+Departing From	Service Class	Sydney	Economy class	7	21, 65, 72, 105, 124, 142, 150
+Departing From	Service Class	Sydney	Business class	5	24, 42, 76, 101, 131
+Departing From	Service Class	Sydney	Frist class	4	25, 64, 67, 86
+Departing From	Service Class	Zurich	Economy class	6	34, 55, 77, 127, 129, 153
+Departing From	Service Class	Zurich	Business class	6	26, 68, 71, 115, 126, 154
+Departing From	Service Class	Zurich	Frist class	3	22, 23, 87
+Departing From	Type	Acapulco	Round Trip	6	1, 33, 47, 62, 112, 113
+Departing From	Type	Acapulco	One Way	10	6, 29, 45, 74, 83, 96, 128, 138, 139, 149
+Departing From	Type	Frankfurt	Round Trip	7	5, 30, 53, 92, 99, 110, 122
+Departing From	Type	Frankfurt	One Way	8	2, 31, 36, 51, 61, 78, 80, 134
+Departing From	Type	London	Round Trip	7	3, 27, 50, 79, 84, 107, 145
+Departing From	Type	London	One Way	8	7, 37, 63, 75, 100, 125, 141, 147
+Departing From	Type	New York	Round Trip	7	8, 46, 58, 94, 114, 133, 136
+Departing From	Type	New York	One Way	10	4, 28, 32, 54, 66, 88, 109, 120, 144, 156
+Departing From	Type	Paris	Round Trip	8	9, 12, 48, 59, 95, 97, 119, 140
+Departing From	Type	Paris	One Way	6	13, 40, 69, 81, 104, 135
+Departing From	Type	Portland	Round Trip	6	14, 35, 41, 52, 123, 130
+Departing From	Type	Portland	One Way	9	10, 11, 57, 60, 70, 90, 108, 143, 146
+Departing From	Type	San Francisco	Round Trip	9	15, 17, 43, 49, 82, 102, 117, 137, 151
+Departing From	Type	San Francisco	One Way	9	20, 39, 73, 85, 116, 118, 132, 152, 155
+Departing From	Type	Seattle	Round Trip	9	19, 38, 56, 93, 106, 111, 121, 148, 157
+Departing From	Type	Seattle	One Way	7	16, 18, 44, 89, 91, 98, 103
+Departing From	Type	Sydney	Round Trip	14	21, 24, 64, 65, 67, 72, 76, 86, 101, 105, 124, 131, 142, 150
+Departing From	Type	Sydney	One Way	2	25, 42
+Departing From	Type	Zurich	Round Trip	6	26, 34, 77, 87, 129, 154
+Departing From	Type	Zurich	One Way	9	22, 23, 55, 68, 71, 115, 126, 127, 153
+Passengers	Airline	1	No preferent 	5	1, 16, 20, 73, 74
+Passengers	Airline	1	Blu Skies Airlines	7	7, 24, 36, 51, 57, 58, 136
+Passengers	Airline	1	Unified Airlines	16	13, 28, 46, 53, 77, 91, 92, 101, 102, 114, 118, 120, 125, 126, 135, 146
+Passengers	Airline	1	Pangea Airlines	11	10, 26, 60, 76, 79, 104, 110, 129, 140, 148, 150
+Passengers	Airline	2	No preferent 	8	8, 23, 52, 59, 87, 94, 103, 122
+Passengers	Airline	2	Blu Skies Airlines	7	2, 19, 39, 75, 90, 98, 128
+Passengers	Airline	2	Unified Airlines	9	9, 25, 44, 62, 67, 82, 97, 108, 115
+Passengers	Airline	2	Pangea Airlines	16	14, 27, 33, 49, 56, 64, 81, 100, 109, 134, 139, 144, 154, 155, 156, 157
+Passengers	Airline	3	No preferent 	17	11, 34, 40, 50, 63, 78, 80, 89, 111, 117, 130, 131, 132, 142, 143, 145, 149
+Passengers	Airline	3	Blu Skies Airlines	9	6, 15, 32, 43, 55, 70, 71, 88, 95
+Passengers	Airline	3	Unified Airlines	7	3, 30, 47, 93, 105, 112, 116
+Passengers	Airline	3	Pangea Airlines	5	18, 21, 48, 66, 152
+Passengers	Airline	4	No preferent 	7	5, 31, 42, 69, 72, 83, 123
+Passengers	Airline	4	Blu Skies Airlines	17	12, 45, 65, 86, 106, 107, 119, 121, 124, 127, 133, 137, 138, 141, 147, 151, 153
+Passengers	Airline	4	Unified Airlines	8	17, 22, 37, 41, 54, 84, 99, 113
+Passengers	Airline	4	Pangea Airlines	8	4, 29, 35, 38, 61, 68, 85, 96
+Passengers	Service Class	1	Economy class	17	1, 7, 28, 51, 60, 73, 77, 92, 102, 104, 110, 114, 118, 120, 129, 136, 150
+Passengers	Service Class	1	Business class	14	10, 13, 24, 26, 58, 76, 91, 101, 125, 126, 135, 140, 146, 148
+Passengers	Service Class	1	Frist class	8	16, 20, 36, 46, 53, 57, 74, 79
+Passengers	Service Class	2	Economy class	12	9, 33, 49, 56, 75, 82, 90, 122, 134, 155, 156, 157
+Passengers	Service Class	2	Business class	14	2, 19, 27, 39, 44, 62, 81, 98, 108, 115, 128, 139, 144, 154
+Passengers	Service Class	2	Frist class	14	8, 14, 23, 25, 52, 59, 64, 67, 87, 94, 97, 100, 103, 109
+Passengers	Service Class	3	Economy class	15	15, 18, 21, 34, 40, 47, 55, 80, 105, 112, 116, 117, 142, 143, 152
+Passengers	Service Class	3	Business class	14	11, 30, 48, 50, 70, 71, 88, 93, 95, 130, 131, 132, 145, 149
+Passengers	Service Class	3	Frist class	9	3, 6, 32, 43, 63, 66, 78, 89, 111
+Passengers	Service Class	4	Economy class	18	4, 31, 37, 41, 65, 69, 72, 96, 99, 121, 123, 124, 127, 133, 137, 138, 147, 153
+Passengers	Service Class	4	Business class	15	5, 17, 35, 42, 45, 54, 61, 68, 84, 106, 107, 113, 119, 141, 151
+Passengers	Service Class	4	Frist class	7	12, 22, 29, 38, 83, 85, 86
+Passengers	Type	1	Round Trip	19	1, 24, 26, 46, 53, 58, 76, 77, 79, 92, 101, 102, 110, 114, 129, 136, 140, 148, 150
+Passengers	Type	1	One Way	20	7, 10, 13, 16, 20, 28, 36, 51, 57, 60, 73, 74, 91, 104, 118, 120, 125, 126, 135, 146
+Passengers	Type	2	Round Trip	20	8, 9, 14, 19, 27, 33, 49, 52, 56, 59, 62, 64, 67, 82, 87, 94, 97, 122, 154, 157
+Passengers	Type	2	One Way	20	2, 23, 25, 39, 44, 75, 81, 90, 98, 100, 103, 108, 109, 115, 128, 134, 139, 144, 155, 156
+Passengers	Type	3	Round Trip	19	3, 15, 21, 30, 34, 43, 47, 48, 50, 93, 95, 105, 111, 112, 117, 130, 131, 142, 145
+Passengers	Type	3	One Way	19	6, 11, 18, 32, 40, 55, 63, 66, 70, 71, 78, 80, 88, 89, 116, 132, 143, 149, 152
+Passengers	Type	4	Round Trip	21	5, 12, 17, 35, 38, 41, 65, 72, 84, 86, 99, 106, 107, 113, 119, 121, 123, 124, 133, 137, 151
+Passengers	Type	4	One Way	19	4, 22, 29, 31, 37, 42, 45, 54, 61, 68, 69, 83, 85, 96, 127, 138, 141, 147, 153
+Airline	Service Class	No preferent 	Economy class	13	1, 31, 34, 40, 69, 72, 73, 80, 117, 122, 123, 142, 143
+Airline	Service Class	No preferent 	Business class	9	5, 11, 42, 50, 130, 131, 132, 145, 149
+Airline	Service Class	No preferent 	Frist class	15	8, 16, 20, 23, 52, 59, 63, 74, 78, 83, 87, 89, 94, 103, 111
+Airline	Service Class	Blu Skies Airlines	Economy class	16	7, 15, 51, 55, 65, 75, 90, 121, 124, 127, 133, 136, 137, 138, 147, 153
+Airline	Service Class	Blu Skies Airlines	Business class	17	2, 19, 24, 39, 45, 58, 70, 71, 88, 95, 98, 106, 107, 119, 128, 141, 151
+Airline	Service Class	Blu Skies Airlines	Frist class	7	6, 12, 32, 36, 43, 57, 86
+Airline	Service Class	Unified Airlines	Economy class	16	9, 28, 37, 41, 47, 77, 82, 92, 99, 102, 105, 112, 114, 116, 118, 120
+Airline	Service Class	Unified Airlines	Business class	17	13, 17, 30, 44, 54, 62, 84, 91, 93, 101, 108, 113, 115, 125, 126, 135, 146
+Airline	Service Class	Unified Airlines	Frist class	7	3, 22, 25, 46, 53, 67, 97
+Airline	Service Class	Pangea Airlines	Economy class	17	4, 18, 21, 33, 49, 56, 60, 96, 104, 110, 129, 134, 150, 152, 155, 156, 157
+Airline	Service Class	Pangea Airlines	Business class	14	10, 26, 27, 35, 48, 61, 68, 76, 81, 139, 140, 144, 148, 154
+Airline	Service Class	Pangea Airlines	Frist class	9	14, 29, 38, 64, 66, 79, 85, 100, 109
+Airline	Type	No preferent 	Round Trip	18	1, 5, 8, 34, 50, 52, 59, 72, 87, 94, 111, 117, 122, 123, 130, 131, 142, 145
+Airline	Type	No preferent 	One Way	19	11, 16, 20, 23, 31, 40, 42, 63, 69, 73, 74, 78, 80, 83, 89, 103, 132, 143, 149
+Airline	Type	Blu Skies Airlines	Round Trip	18	12, 15, 19, 24, 43, 58, 65, 86, 95, 106, 107, 119, 121, 124, 133, 136, 137, 151
+Airline	Type	Blu Skies Airlines	One Way	22	2, 6, 7, 32, 36, 39, 45, 51, 55, 57, 70, 71, 75, 88, 90, 98, 127, 128, 138, 141, 147, 153
+Airline	Type	Unified Airlines	Round Trip	23	3, 9, 17, 30, 41, 46, 47, 53, 62, 67, 77, 82, 84, 92, 93, 97, 99, 101, 102, 105, 112, 113, 114
+Airline	Type	Unified Airlines	One Way	17	13, 22, 25, 28, 37, 44, 54, 91, 108, 115, 116, 118, 120, 125, 126, 135, 146
+Airline	Type	Pangea Airlines	Round Trip	20	14, 21, 26, 27, 33, 35, 38, 48, 49, 56, 64, 76, 79, 110, 129, 140, 148, 150, 154, 157
+Airline	Type	Pangea Airlines	One Way	20	4, 10, 18, 29, 60, 61, 66, 68, 81, 85, 96, 100, 104, 109, 134, 139, 144, 152, 155, 156
+Service Class	Type	Economy class	Round Trip	33	1, 9, 15, 21, 33, 34, 41, 47, 49, 56, 65, 72, 77, 82, 92, 99, 102, 105, 110, 112, 114, 117, 121, 122, 123, 124, 129, 133, 136, 137, 142, 150, 157
+Service Class	Type	Economy class	One Way	29	4, 7, 18, 28, 31, 37, 40, 51, 55, 60, 69, 73, 75, 80, 90, 96, 104, 116, 118, 120, 127, 134, 138, 143, 147, 152, 153, 155, 156
+Service Class	Type	Business class	Round Trip	28	5, 17, 19, 24, 26, 27, 30, 35, 48, 50, 58, 62, 76, 84, 93, 95, 101, 106, 107, 113, 119, 130, 131, 140, 145, 148, 151, 154
+Service Class	Type	Business class	One Way	29	2, 10, 11, 13, 39, 42, 44, 45, 54, 61, 68, 70, 71, 81, 88, 91, 98, 108, 115, 125, 126, 128, 132, 135, 139, 141, 144, 146, 149
+Service Class	Type	Frist class	Round Trip	18	3, 8, 12, 14, 38, 43, 46, 52, 53, 59, 64, 67, 79, 86, 87, 94, 97, 111
+Service Class	Type	Frist class	One Way	20	6, 16, 20, 22, 23, 25, 29, 32, 36, 57, 63, 66, 74, 78, 83, 85, 89, 100, 103, 109

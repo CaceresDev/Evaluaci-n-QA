@@ -1,0 +1,16 @@
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+
+pm.test("Users quantity equals to 500", function () {
+    let jsonData = pm.response.json();
+    pm.expect(jsonData.length).to.eql(500);
+});
+
+pm.test("User mail 45 is ", function () {
+    let jsonData = pm.response.json();
+    pm.expect(jsonData[45].email).to.eql("Jeremy.Harann@waino.me");
+});
+
+

@@ -1,0 +1,6 @@
+SELECT s.Nombre
+FROM Estudiantes s
+JOIN Amigos a ON s.ID = a.ID
+JOIN Paquetes p ON a.Friend_ID = p.ID
+WHERE p.Salario > (SELECT Salario FROM Paquetes WHERE ID = s.ID)
+ORDER BY p.Salario ASC;

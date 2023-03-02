@@ -1,0 +1,37 @@
+CREATE TABLE Estudiantes (
+    ID INT PRIMARY KEY,
+    Nombre VARCHAR(50)
+);
+
+CREATE TABLE Amigos (
+    ID INT PRIMARY KEY,
+    Friend_ID INT,
+    FOREIGN KEY (ID) REFERENCES Estudiantes(ID),
+    FOREIGN KEY (Friend_ID) REFERENCES Estudiantes(ID)
+);
+
+CREATE TABLE Paquetes (
+    ID INT PRIMARY KEY,
+    Salario FLOAT
+);
+
+-- Insertar datos de ejemplo en la tabla Estudiantes
+INSERT INTO Estudiantes (ID, Nombre)
+VALUES (1, 'Ashley'),
+       (2, 'Samantha'),
+       (3, 'Julia'),
+       (4, 'Escarlata');
+
+-- Insertar datos de ejemplo en la tabla Amigos
+INSERT INTO Amigos (ID, Friend_ID)
+VALUES (1, 2),
+       (2, 3),
+       (3, 4),
+       (4, 1);
+
+-- Insertar datos de ejemplo en la tabla Paquetes
+INSERT INTO Paquetes (ID, Salario)
+VALUES (1, 15.20),
+       (2, 10.06),
+       (3, 11.55),
+       (4, 12.12);
